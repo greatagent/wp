@@ -1,5 +1,5 @@
 <?php
-#  wwqgtxx-goagent - Software suite for breakthrough GFW
+#  wwqgtxx-wallproxy - Software suite for breakthrough GFW
 #  
 #  updategc.php - Bootstrap Phase 1
 #  "gc" is stand for googleCode. In the old version, we use GAE for update, not GoogleCode.
@@ -9,7 +9,7 @@ preg_match('/(.*?)\\\updategc\.php$/',__FILE__,$currentdir);
 chdir($currentdir[1]);
 
 /* Define update server*/
-$host = "goagent.wwqgtxx-goagent.googlecode.com";
+$host = "wallproxy.wwqgtxx-goagent.googlecode.com";
 
 /* */
 file_exists("string.inc.php") && require_once("string.inc.php");

@@ -1,15 +1,8 @@
 <?php
-#  wwqgtxx-goagent - Software suite for breakthrough GFW
+#  wwqgtxx-wallproxy - Software suite for breakthrough GFW
 #  
 #  miscellaneous.php - Last cleanup
 
-@unlink("startfirefox.inc.bat");
-@unlink("startgoagent.inc.bat");
-@unlink("update.inc.bat");
-@unlink("miscellaneous.inc.bat");
-@unlink("genhash.inc.bat");
-@unlink(".gitattributes");
-@unlink("wwqgtxx-goagent-standalone.bat");
 
 
 /* 20121207 Remove incorrect Pinyin Filename */
