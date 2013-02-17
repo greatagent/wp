@@ -53,7 +53,7 @@ utility\sleep.exe -m 1000
 :: Step6 - Start WallProxy
 
 echo Starting WallProxy...
-start wallproxy-local\python.exe
+start wallproxy-local\wallproxy.exe
 
 
 :: startfirefox.inc.bat
