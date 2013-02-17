@@ -5,6 +5,7 @@
 05d621463352495498af3f8d51ad74f1  .\updategc.php
 08a3028fda91d443f4d5e93307c96fcd  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.gif
 08e85fe5f06cb4120967633447468419  .\wallproxy-local\Microsoft.VC90.CRT.manifest
+0a17da4d05a23e87373e0e6ed3857f42  .\wallproxy-local\proxy.ini
 108368264a102669e271abce6b4d7b45  .\utility\php\php5ts.dll
 1f05766183d16b04a89fb79c26f8d49c  .\wallproxy-local\src.zip\web\js\codemirror\python.js
 229ee3f6a87b33f0c6e589c0ea3cc085  .\wallproxy-local\certmgr.exe
@@ -25,7 +26,6 @@
 4a323b7ef9006018804b52ffc3e83c06  .\data\wwqgtxx-goagent.pubkey
 4d4f95e5ecde4ac37557132dfeb048fa  .\wallproxy-local\src.zip\web\favicon.ico
 4daf038175d96318b5f03dd097da0d85  .\miscellaneous.php
-4e0e08370dfbaae58fb87e6838fdbe28  .\wallproxy-local\proxy.ini
 4ec5f5a1fc5672f6d70f6d81457777c0  .\wallproxy-local\pac
 502993a664681e08afd81df989d177a0  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 50e19cbcab36d19b8ca630e149ec6512  .\wwqgtxx-wallproxy.bat
@@ -37,7 +37,6 @@
 7b973145f7e1b59330ca4dd1f86b3d55  .\utility\certutil.exe
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
-84932fd47af51517f6372436aebe8964  .\wallproxy-local\src.zip\make_config.py
 88a3fed2453f2b253591c2537fb45b2c  .\makegservers.inc.php
 8a99f40fd97e852e6dff1c50021771a1  .\wallproxy-local\src.zip\web\index.html
 9480d91c81b514ab05cdb9e60a407f7e  .\utility\certenc.dll
@@ -57,5 +56,6 @@ eaf24a8a4f74db094df75b54b81fe818  .\wallproxy-local\python.exe
 ed1eddca002ca47aa11f06196d49f243  .\wallproxy-local\startup.py
 f1c0a979edf97b8ca07bafe12498e95f  .\wallproxy-local\src.zip\old.py
 f1c5f808a6e997959a704e2db1b7c4d0  .\firefox.inc.php
+f31a25473197ae7d9bad850cb2107e15  .\wallproxy-local\src.zip\make_config.py
 f9e3c93059ef0fc1ca1ead499f19d489  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-black.png
 fe3222fd7cac42742c035ccfa9954e88  .\wallproxy-local\src.zip\web\page401.html
