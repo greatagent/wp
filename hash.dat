@@ -15,7 +15,6 @@
 29b996a9aa3f4e63d9d68c53dbd02a04  .\utility\php\php5nsapi.dll
 2b0fd3e0d80ec2016f066238c6b9241c  .\wallproxy-local\WallProxy.exe
 2ddc439c70abf256705e675ee86c04ed  .\wallproxy-local\src.zip\web\js\jquery.js
-2e4f4d7b9893e682c520665ce5c489af  .\string.inc.php
 316b9466a6b0b348670019e700a55b4a  .\cleanhash.php
 3966fbba168463fd59fbebaace710b1c  .\utility\sleep.exe
 3a23458554ca77caf325fb895a896d55  .\utility\php\libeay32.dll
@@ -33,6 +32,7 @@
 632ff9bef83adcf1cd745c938a4216af  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 665ccc57a84c5639c4e5151686cc0432  .\utility\md5deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
+77be84563e51713d09f5062b239e4bdd  .\string.inc.php
 78edaf9af519e2547ecf2336e76d2377  .\wallproxy-local\config.py
 7b973145f7e1b59330ca4dd1f86b3d55  .\utility\certutil.exe
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
