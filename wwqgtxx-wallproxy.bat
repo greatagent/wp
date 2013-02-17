@@ -56,7 +56,6 @@ echo Starting WallProxy...
 start wallproxy-local\python.exe
 
 
-
 :: startfirefox.inc.bat
 :: Step5 - Start Firefox
 echo Starting FirefoxPortable...
