@@ -19,4 +19,4 @@ utility\php\php.exe get-last-kown-good.inc.php
 :: startfirefox.inc.bat
 :: Step7 - Start Firefox
 echo Starting FirefoxPortable...
-utility\php\php.exe firefox.inc.php
+utility\php\php.exe startfirefox.inc.php
