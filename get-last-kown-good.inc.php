@@ -3,7 +3,7 @@
 #  
 #  makegserver.inc.php - Reslove Google Server IP
 echo "\r\n";
-echo "Grabbing last-known-good file from smarthosts:\r\n";
+echo "Grabbing last-known-good file from smarthosts and huhamhire-hosts:\r\n";
 
 /* FUNCTION */
 require_once("makegservers.inc.php");
@@ -41,8 +41,21 @@ function request($query,$host){
 	
 	return $response;
 } 
+echo "Grabbing smarthosts hosts:\r\n";
 $googleip=array();
 $host=request("GET /svn/trunk/hosts HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n","smarthosts.googlecode.com");
+$host=explode("\r\n",$host);
+foreach($host as $hostkey=>$hoststring){
+	//talk.google.com is special case. We cannot use it as G-Server
+	if(preg_match('/(.*?)\ttalk\.google\.com$/',$hoststring,$hostmatch)){
+	}elseif(preg_match('/(.*?)\t.*?\.google\.com$/',$hoststring,$hostmatch)){
+		if(filter_var($hostmatch[1],FILTER_VALIDATE_IP)){
+			$googleip[]=$hostmatch[1];
+		}
+	}
+}
+echo "Grabbing huhamhire-hosts hosts:\r\n";
+$host=request("GET /git/downloads/raw/ipv4_mobile_utf8/hosts HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n","huhamhire-hosts.googlecode.com");
 $host=explode("\r\n",$host);
 foreach($host as $hostkey=>$hoststring){
 	//talk.google.com is special case. We cannot use it as G-Server
