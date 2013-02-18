@@ -42,27 +42,6 @@ utility\php\php.exe cleanhash.php
 utility\php\php.exe updategc.php
 utility\sleep.exe -m 1000
 
-:: miscellaneous.inc.bat
-:: Step4 - Old file cleanup
-
-utility\php\php.exe miscellaneous.php
-
-utility\sleep.exe -m 1000
-
-:: startwallproxy.inc.bat
-:: Step5 - Start WallProxy
-
-echo Starting WallProxy...
-start wallproxy-local\wallproxy.exe
-
-
-:: startfirefox.inc.bat
-:: Step6 - Start Firefox
-echo Starting FirefoxPortable...
-utility\php\php.exe firefox.inc.php
-utility\sleep.exe -m 1000
-
-:: get-last-kown-good.inc.bat
-:: Step7 - Start Firefox
-utility\php\php.exe get-last-kown-good.inc.php
-utility\sleep.exe -m 1000
+:: runner.bat
+:: Step3 - Run main file
+runner.bat
