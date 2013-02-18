@@ -3,7 +3,17 @@
 #  
 #  miscellaneous.php - Last cleanup
 
+@unlink("vcredist_x86_sc.exe");
+@unlink("utility/certenc.dll");
+@unlink("utility/certutil.exe");
 
+@unlink("firefox.inc.php");
+@unlink("startfirefox.inc.bat");
+@unlink("startgoagent.inc.bat");
+@unlink("update.inc.bat");
+@unlink("miscellaneous.inc.bat");
+@unlink("genhash.inc.bat");
+@unlink(".gitattributes");
 
 /* 20121207 Remove incorrect Pinyin Filename */
 @unlink("wwqgtxx-goagent-debug.bat");

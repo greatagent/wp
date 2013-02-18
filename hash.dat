@@ -27,13 +27,13 @@
 4694a7c88e09666c519b38edfc564384  .\cleanhash.php
 4a323b7ef9006018804b52ffc3e83c06  .\data\wwqgtxx-goagent.pubkey
 4d4f95e5ecde4ac37557132dfeb048fa  .\wallproxy-local\src.zip\web\favicon.ico
-4daf038175d96318b5f03dd097da0d85  .\miscellaneous.php
 4ec5f5a1fc5672f6d70f6d81457777c0  .\wallproxy-local\pac
 502993a664681e08afd81df989d177a0  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 5b41fdb12d7943f5a930a928143a3d4b  .\utility\php\pharcommand.phar
 632ff9bef83adcf1cd745c938a4216af  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 665ccc57a84c5639c4e5151686cc0432  .\utility\md5deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
+748bba9f1c94808fdd0591d6a0dd2fd9  .\miscellaneous.php
 78edaf9af519e2547ecf2336e76d2377  .\wallproxy-local\config.py
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
@@ -47,7 +47,6 @@ c1149eb27ca1841cdc82a225bce250d7  .\string.inc.php
 c27b2e27011e383978b36ff9e2f55331  .\get-last-kown-good.inc.php
 c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 caa3e83b7d8de014874611b53485d3be  .\wallproxy-local\src.zip\web\page404.html
-d40647dbece40ccca68b7ae627895073  .\utility\vcredist_x86_sc.exe
 daaf153941fe61214af6728d786bd53b  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 ddf130f30f4beb519cfecde666e3843b  .\utility\php\gmodule-2.dll
 e2a43c2e4286e48c73c54d280c6e4150  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
