@@ -1,5 +1,5 @@
 <?php
-#  wwqgtxx-wallproxy - Software suite for breakthrough GFW
+#  wwqgtxx-goagent - Software suite for breakthrough GFW
 #  
 #  cleanhash.php - Cleanup hash table
 #  some files do not need to appear in hash table
@@ -13,6 +13,9 @@ function cleanup($line) {
     return false;
   }
   if (preg_match('/  \.\\\\.git\\\/',$line)) {
+    return false;
+  }
+  if (preg_match('/  \.\\\cert8\.db$/',$line)) {
     return false;
   }
   if (preg_match('/  \.\\\firefox\\\/',$line)) {
