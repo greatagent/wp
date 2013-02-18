@@ -33,10 +33,10 @@
 632ff9bef83adcf1cd745c938a4216af  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 665ccc57a84c5639c4e5151686cc0432  .\utility\md5deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
+7197fb75410e8c4747a08a55ad72450d  .\miscellaneous.php
 78edaf9af519e2547ecf2336e76d2377  .\wallproxy-local\config.py
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
-88794b18926d0187c3a3078528119c35  .\miscellaneous.php
 8a99f40fd97e852e6dff1c50021771a1  .\wallproxy-local\src.zip\web\index.html
 9c5f8e677db489195d3c11ba4b449b15  .\utility\php\ssleay32.dll
 a3de093304f7209b5f95530781a75731  .\startfirefox.inc.php
@@ -47,6 +47,7 @@ c1149eb27ca1841cdc82a225bce250d7  .\string.inc.php
 c27b2e27011e383978b36ff9e2f55331  .\get-last-kown-good.inc.php
 c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 caa3e83b7d8de014874611b53485d3be  .\wallproxy-local\src.zip\web\page404.html
+d40647dbece40ccca68b7ae627895073  .\utility\vcredist_x86_sc.exe
 daaf153941fe61214af6728d786bd53b  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 ddf130f30f4beb519cfecde666e3843b  .\utility\php\gmodule-2.dll
 e2a43c2e4286e48c73c54d280c6e4150  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
