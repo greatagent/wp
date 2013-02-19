@@ -4,7 +4,6 @@
 0555717b0e34b68f3e40707d324a252f  .\wallproxy-local\src.zip\proxy.py
 08a3028fda91d443f4d5e93307c96fcd  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.gif
 08e85fe5f06cb4120967633447468419  .\wallproxy-local\Microsoft.VC90.CRT.manifest
-0a17da4d05a23e87373e0e6ed3857f42  .\wallproxy-local\proxy.ini
 0c5b2e09bbf1309deffdcd81dbefcc90  .\runner.bat
 108368264a102669e271abce6b4d7b45  .\utility\php\php5ts.dll
 16363e78f05a17e6d250be8a31578ad1  .\FirefoxPortable\Data\profile\cert8.db
@@ -22,6 +21,7 @@
 3bdd7116009b8f7b091b44e5e71a967c  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
 3f12c9300def52889994ac53a8c7641f  .\utility\php\ext\php_openssl.dll
 416d01448b7c5ca8f29e2be1391f42aa  .\wallproxy-local\src.zip\plugins.py
+421c8a4f04cf8b5b858be4cc8e87fa9c  .\wallproxy-local\proxy.ini
 4694a7c88e09666c519b38edfc564384  .\cleanhash.php
 4a323b7ef9006018804b52ffc3e83c06  .\data\wwqgtxx-goagent.pubkey
 4be589cb3684bbed93069b2c190fc3b1  .\makegservers.inc.php
