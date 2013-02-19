@@ -236,7 +236,7 @@ class Common(object):
                 v = v.replace('|', ' ').strip()
                 if k and v: self.HOSTS[k] = v
 
-        self.THIRD_APPS = None
+        self.THIRD_APPS = []
         if self.getboolean('third', 'enable', CONFIG.has_section('third')):
             self.remove_option('third', 'enable', '')
             self.THIRD_APPS = [(k,v if v[0] in ('"',"'") else repr(v)) for k,v in self.items('third', ()) if v]
@@ -696,7 +696,6 @@ hosts_rules.match(url, host):
 %end #GAE_HANDLER
     paas.data['GAE_server'].find_handler = find_gae_handler
 
-%end #GAE_HANDLER
 %if USERNAME:
     @auth_checker
 %end
