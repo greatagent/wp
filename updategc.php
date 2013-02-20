@@ -163,3 +163,16 @@ foreach($remotefile as $remotekey=>$remotevalue){
 }
 
 echo "\r\n";
+
+echo "Show Version Message:\r\n";
+if($file=@file_get_contents("data/version")){
+	echo $file;
+	echo "\r\n";
+}else{
+	echo "Not Version Message!\r\n";
+}
+
+echo "\r\n";
+
+
+?>
