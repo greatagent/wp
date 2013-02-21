@@ -9,9 +9,12 @@ preg_match('/(.*?)\\\updategc\.php$/',__FILE__,$currentdir);
 chdir($currentdir[1]);
 
 /* Define update server*/
-$host = "wallproxy.wwqgtxx-goagent.googlecode.com";
-if(file_exists("data/usegc2")){
+if(file_exists("data/usegctest")){
+	$host = "wallproxytest.wwqgtxx-wallproxy.googlecode.com";
+}else if(file_exists("data/usegc2")){
 	$host = "wallproxy.wwqgtxx-wallproxy.googlecode.com";
+}else{
+	$host = "wallproxy.wwqgtxx-goagent.googlecode.com";
 }
 
 /* */
