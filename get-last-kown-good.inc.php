@@ -1,4 +1,5 @@
 <?php
+#  wwqgtxx-goagent   - Software suite for breakthrough GFW
 #  wwqgtxx-wallproxy - Software suite for breakthrough GFW
 #  
 #  get-last-kown-good.inc.php - Grabbing last-known-good file from SmartHosts and Huhamhire-Hosts
@@ -11,7 +12,7 @@ require_once("makegservers.inc.php");
 echo "Grabbing SmartHosts hosts:\r\n";
 $googleip=array();
 $host=request("GET /svn/trunk/hosts HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n","smarthosts.googlecode.com");
-$host=explode("\r\n",$host);
+$host=explode("\n",str_replace("\r\n","\n",$host));
 foreach($host as $hostkey=>$hoststring){
 	//talk.google.com is special case. We cannot use it as G-Server
 	if(preg_match('/(.*?)\ttalk\.google\.com$/',$hoststring,$hostmatch)){
@@ -23,7 +24,7 @@ foreach($host as $hostkey=>$hoststring){
 }
 echo "Grabbing Huhamhire-Hosts hosts:\r\n";
 $host=request("GET /git/downloads/raw/ipv4_mobile_utf8/hosts HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n","huhamhire-hosts.googlecode.com");
-$host=explode("\r\n",$host);
+$host=explode("\n",str_replace("\r\n","\n",$host));
 foreach($host as $hostkey=>$hoststring){
 	//talk.google.com is special case. We cannot use it as G-Server
 	if(preg_match('/(.*?)\ttalk\.google\.com$/',$hoststring,$hostmatch)){
