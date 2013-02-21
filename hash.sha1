@@ -4,7 +4,6 @@
 0d9d5260cf4e2a9d708f6622c1cdac432f9f6064  .\startfirefox.inc.php
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 16b589026b58d08a4566696b76f684ce2d7226d2  .\wallproxy-local\src.zip\plugins.py
-21670937a034b49cc5ceb64e6ab38ef5585a3fd1  .\updategc.php
 2754c98a32a1e1e9452a3b13780b706c6e8dd4fc  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 29268ef0cd220ad3c5e9812befd3f5759b27a266  .\wallproxy-local\msvcr90.dll
 2d8bf1950b0a479630ccbb01b772945b6d26889e  .\wallproxy-local\config.py
@@ -18,6 +17,7 @@
 52a9d49a9cce6069d39a56d1d85a75741b55b28e  .\wallproxy-local\misc\userlist.ini
 587cc61dbae6ad52f35aae9adbef4505dd534108  .\FirefoxPortable\Data\profile\cert8.db
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
+601da7bcceee07bbc9b76fa775c70f7e7b5ecb1b  .\data\version
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
 695655af4cb71d86085c527b55965da4cdb43f6f  .\cleanhash.php
@@ -30,7 +30,6 @@
 8db509bf57ff842be61c0063b4733a3a25e2bf38  .\wallproxy-local\pac
 9218d734cde786d52491c659521aa726e56edce0  .\wallproxy-local\Run.bat
 9327581c48da2e1f8eed7447bc71410cb9afab61  .\utility\php\ext\php_openssl.dll
-94acb7314dc774993113deab6d377fa9e2675ff5  .\data\version
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 94f3b5b67437a6e4b902ce80077a699cd79c24f9  .\wallproxy-local\src.zip\web\js\jquery.js
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
@@ -63,4 +62,5 @@ ed95b93cb6152b337c42947437ae64d524931218  .\utility\md5deep.exe
 ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
 f86dea144b2044c2cc9c55d493ba0856966186ed  .\wallproxy-local\gui.ini
 f9613ab19644448568841e8a2969e265381fd96e  .\utility\php\ssleay32.dll
+fa328f85d7b773faa94edeb30fb6f9d6c7df09cb  .\updategc.php
 faef74eb6852c011ce60671249937ebc079dfd22  .\miscellaneous.php

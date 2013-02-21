@@ -10,7 +10,7 @@ chdir($currentdir[1]);
 
 /* Define update server*/
 if(file_exists("data/usegctest")){
-	$host = "wallproxytest.wwqgtxx-wallproxy.googlecode.com";
+	$host = "wallproxytest.wwqgtxx-goagent.googlecode.com";
 }else if(file_exists("data/usegc2")){
 	$host = "wallproxy.wwqgtxx-wallproxy.googlecode.com";
 }else{
