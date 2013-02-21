@@ -1,5 +1,4 @@
 
-00869b43176815aadab38342ac80b849ea81fa18  .\data\version
 00e71a9b1fe7f4fb7aa097a69ed243f317c2feae  .\utility\php\gmodule-2.dll
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 0d95764a4ed67d6f013d34d1a8b77d6edc30a499  .\get-last-kown-good.inc.php
@@ -22,6 +21,7 @@
 587cc61dbae6ad52f35aae9adbef4505dd534108  .\FirefoxPortable\Data\profile\cert8.db
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
+666222de65a279e06f1bf2879ac40ab7fdba795d  .\data\version
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
 6ca1cedc91693d63ab551768b9cec36646644895  .\wallproxy-local\certmgr.exe
 72d89dbe42f87217ddc19b2896757013ed63c2b7  .\wallproxy-local\WallProxy.exe
