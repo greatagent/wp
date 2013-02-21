@@ -21,9 +21,7 @@ if(file_exists("data/usegctest")){
 file_exists("string.inc.php") && require_once("string.inc.php");
 require_once("makegservers.inc.php");
 
-
 /* FUNCTION */
-
 function update($filename,$hash){
 	global $gservers,$host;
 	$request="GET /git/{$filename} HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n";
@@ -59,7 +57,7 @@ function update($filename,$hash){
 		}
 	}
 	
-	if(md5($response)==$hash){
+	if(sha1($response)==$hash){
 		if(dirname($filename)!="." && ! file_exists(dirname($filename))){
 			mkdir(dirname($filename),0,true);
 		}
@@ -78,9 +76,9 @@ if(file_exists("data/updateignore")){
 	$ignore=explode("\n",str_replace("\r\n","\n",file_get_contents("data/updateignore")));
 }
 
-/* Check local hash.dat exists */
-if(! file_exists("hash.dat")){
-	die("Fatal Error: hash.dat not exists!");
+/* Check local hash.sha1 exists */
+if(! file_exists("hash.sha1")){
+	die("Fatal Error: hash.sha1 not exists!");
 }
 
 echo "Update Server:";
@@ -88,13 +86,13 @@ echo $host;
 echo "\r\n";
 
 /* Remote Hash Table */
-$query="GET /git/sign.dat HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n";
-echo "Grabbing sign.dat:\r\n";
+$query="GET /git/sign.sha1 HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n";
+echo "Grabbing sign.sha1:\r\n";
 $sign=request($query,$host);
 $sign=base64_decode($sign);
 
-$query="GET /git/hash.dat HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n";
-echo "Grabbing hash.dat:\r\n";
+$query="GET /git/hash.sha1 HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n";
+echo "Grabbing hash.sha1:\r\n";
 $response=request($query,$host);
 
 if(!file_exists("data/wwqgtxx-goagent.pubkey")){
@@ -104,8 +102,8 @@ if(!file_exists("data/wwqgtxx-goagent.pubkey")){
 }else{
 
 	if($pubkey=openssl_get_publickey(file_get_contents("data/wwqgtxx-goagent.pubkey"))){
-		while($verify=openssl_verify(md5($response),$sign,$pubkey,OPENSSL_ALGO_MD5)){
-			echo "\r\nVerifying signature of hash.dat, result=";
+		while($verify=openssl_verify(sha1($response),$sign,$pubkey,OPENSSL_ALGO_SHA1)){
+			echo "\r\nVerifying signature of hash.sha1, result=";
 			if($verify == "1"){
 				echo "OK!\r\n";
 				break;
@@ -136,7 +134,7 @@ foreach($response as $value){
 
 /* Local Hash Table */
 unset($response);
-$response=file_get_contents("hash.dat");
+$response=file_get_contents("hash.sha1");
 $response=explode("\r\n",$response);
 foreach($response as $value){
 	unset($localfilename,$localfilehash);
@@ -157,7 +155,7 @@ foreach($remotefile as $remotekey=>$remotevalue){
 			}
 		}
 		
-		if(! preg_match('/\.\/\.svn\//',$remotekey)){
+		if(! preg_match('/\.\/\.git\//',$remotekey)){
 			if(! in_array($remotekey,$ignore)){
 				update($remotekey,$remotevalue);
 			}
@@ -176,6 +174,5 @@ if($file=@file_get_contents("data/version")){
 }
 
 echo "\r\n";
-
 
 ?>
