@@ -4,6 +4,7 @@
 0d9d5260cf4e2a9d708f6622c1cdac432f9f6064  .\startfirefox.inc.php
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 16b589026b58d08a4566696b76f684ce2d7226d2  .\wallproxy-local\src.zip\plugins.py
+20812cd7f4278f4870a2cd75f47cde9e1c34b24d  .\data\version
 2754c98a32a1e1e9452a3b13780b706c6e8dd4fc  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 29268ef0cd220ad3c5e9812befd3f5759b27a266  .\wallproxy-local\msvcr90.dll
 2d8bf1950b0a479630ccbb01b772945b6d26889e  .\wallproxy-local\config.py
@@ -37,7 +38,6 @@
 a15abcf730af857af0710a9a240f67a26684797d  .\wallproxy-local\proxy.ini
 a92a39bd05e2dd5e6dc2ecf589c770749105f30c  .\string.inc.php
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
-aa2d3ba805d753de517ce304a8bd24fd6848f6cf  .\data\version
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\wwqgtxx-goagent.pubkey
 ab2d5de7109e4b0bbf2757fbda9a9f31676b1381  .\runner.bat
 afb5a8d515ec7b2c4e5d8bfccb490fb5b60311c3  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.gif

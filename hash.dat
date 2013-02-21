@@ -37,6 +37,7 @@
 665ccc57a84c5639c4e5151686cc0432  .\utility\md5deep64.exe
 665ccc57a84c5639c4e5151686cc0432  .\utility\sha1deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
+7bd677ea2ab0b0000033f32037a8545e  .\data\version
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
 82f67db86f5ae6dc8e98ff57cedf7fa1  .\string.inc.php
@@ -52,7 +53,6 @@ c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 caa3e83b7d8de014874611b53485d3be  .\wallproxy-local\src.zip\web\page404.html
 d40647dbece40ccca68b7ae627895073  .\utility\vcredist_x86_sc.exe
 d41d8cd98f00b204e9800998ecf8427e  .\data\usegc1
-d76f1b3e7c7f1df287cdd24d9de2701c  .\data\version
 daaf153941fe61214af6728d786bd53b  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 ddf130f30f4beb519cfecde666e3843b  .\utility\php\gmodule-2.dll
 e2a43c2e4286e48c73c54d280c6e4150  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
