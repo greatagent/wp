@@ -1,4 +1,5 @@
 
+0205ff9bd402e50e8f9660aa24087068  .\wallproxy-local\proxy.ini
 0268881e94e06819ca6345d088abc35f  .\wallproxy-local\src.zip\web\css\codemirror.css
 04164e02288b5c204d4508b13ac02bd7  .\wallproxy-local\Run.bat
 04687dec01535b1cc4cc1ea3b36ef09c  .\get-last-kown-good.inc.php
@@ -15,6 +16,7 @@
 2303ea535203c79305490d6c20be8454  .\utility\sha1deep.exe
 24bde6ae0459e200a2b2ac290787022d  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 2731ef3c6b5ac6c45050077ceb1750c3  .\utility\php\php.ini
+27772bc9bc20fb2139043fe010d79666  .\wallproxy-local\src.zip\make_config.py
 29b996a9aa3f4e63d9d68c53dbd02a04  .\utility\php\php5nsapi.dll
 2b0fd3e0d80ec2016f066238c6b9241c  .\wallproxy-local\WallProxy.exe
 2ddc439c70abf256705e675ee86c04ed  .\wallproxy-local\src.zip\web\js\jquery.js
@@ -23,16 +25,15 @@
 3bdd7116009b8f7b091b44e5e71a967c  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
 3f12c9300def52889994ac53a8c7641f  .\utility\php\ext\php_openssl.dll
 416d01448b7c5ca8f29e2be1391f42aa  .\wallproxy-local\src.zip\plugins.py
-421c8a4f04cf8b5b858be4cc8e87fa9c  .\wallproxy-local\proxy.ini
 49731f272f7c5227f60660fff6d7c2d1  .\cleanhash.php
 4a323b7ef9006018804b52ffc3e83c06  .\data\wwqgtxx-goagent.pubkey
 4d4f95e5ecde4ac37557132dfeb048fa  .\wallproxy-local\src.zip\web\favicon.ico
 4ec5f5a1fc5672f6d70f6d81457777c0  .\wallproxy-local\pac
 502993a664681e08afd81df989d177a0  .\wallproxy-local\src.zip\web\css\jqm-docs.css
+537a1f418e38a22512cff524eeede67b  .\data\version
 5b41fdb12d7943f5a930a928143a3d4b  .\utility\php\pharcommand.phar
 5d8662088ab4c9f2ba08158f7680c6f6  .\wallproxy-local\misc\pac_backup.dat
 632ff9bef83adcf1cd745c938a4216af  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
-658a60126fb79001030aa83e4bc2c559  .\data\version
 665ccc57a84c5639c4e5151686cc0432  .\utility\sha1deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
@@ -56,7 +57,6 @@ d89e6ce5107051176f015f3f16bdf37c  .\updategc.php
 daaf153941fe61214af6728d786bd53b  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 ddf130f30f4beb519cfecde666e3843b  .\utility\php\gmodule-2.dll
 e2a43c2e4286e48c73c54d280c6e4150  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
-e6cbbbfef7a37611c5dfae8e9544b75f  .\wallproxy-local\src.zip\make_config.py
 e7d91d008fe76423962b91c43c88e4eb  .\wallproxy-local\msvcr90.dll
 e8f7bf9718e4b532a7dfa51f2a56c3e2  .\wallproxy-local\src.zip\web\js\my.js
 eaf24a8a4f74db094df75b54b81fe818  .\wallproxy-local\python.exe
