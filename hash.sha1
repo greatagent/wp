@@ -34,6 +34,7 @@
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 94f3b5b67437a6e4b902ce80077a699cd79c24f9  .\wallproxy-local\src.zip\web\js\jquery.js
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
+a3a24e7893c2e199a4178ad32c60b9f60edddfb6  .\data\version
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\wwqgtxx-goagent.pubkey
 ab2d5de7109e4b0bbf2757fbda9a9f31676b1381  .\runner.bat
@@ -42,7 +43,6 @@ b2da1f5b73230378981ef19b8cb391c6e789c311  .\wallproxy-local\proxy.ini
 b43a51387a3788dae34568269bc5d852de7142da  .\utility\vcredist_x86_sc.exe
 b47097a699fda78f603e62ba11fdec4e6b50e6d9  .\makegservers.inc.php
 b50d34e8bdee04c842af8f3555c82a1bb4c309f5  .\wallproxy-local\src.zip\proxy.py
-bc702525dfb2b6e0d576c3cf0399d68c6d5ddaeb  .\data\version
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 c219c5d497e9f9cc0afadff29783d5cd7227a91d  .\miscellaneous.php
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
