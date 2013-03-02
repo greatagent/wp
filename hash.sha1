@@ -1,5 +1,4 @@
 
-00e71a9b1fe7f4fb7aa097a69ed243f317c2feae  .\utility\php\gmodule-2.dll
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 16b589026b58d08a4566696b76f684ce2d7226d2  .\wallproxy-local\src.zip\plugins.py
@@ -14,7 +13,6 @@
 445cfc5295cead7bc5faea94d8ad98f8fcb4b21e  .\updategc.php
 482029cb5642995ab06837aa00175c78ef65c8fb  .\get-last-kown-good.inc.php
 4a0ff57b7120b68bb13a2c3b1fee37cf9bafe57a  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
-4a1e7593c376b8e0d1b4d1ed9e88473e6a55f9b2  .\utility\php\pharcommand.phar
 4b9c8afa0fdab6fd163ebf75d22fe63cafd700da  .\wallproxy-local\src.zip\web\favicon.ico
 51db69b0fd96c6867879cd09e3dabecb019add69  .\utility\php\libeay32.dll
 52a9d49a9cce6069d39a56d1d85a75741b55b28e  .\wallproxy-local\misc\userlist.ini
@@ -44,6 +42,7 @@ b2da1f5b73230378981ef19b8cb391c6e789c311  .\wallproxy-local\proxy.ini
 b43a51387a3788dae34568269bc5d852de7142da  .\utility\vcredist_x86_sc.exe
 b47097a699fda78f603e62ba11fdec4e6b50e6d9  .\makegservers.inc.php
 b50d34e8bdee04c842af8f3555c82a1bb4c309f5  .\wallproxy-local\src.zip\proxy.py
+bc702525dfb2b6e0d576c3cf0399d68c6d5ddaeb  .\data\version
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 c219c5d497e9f9cc0afadff29783d5cd7227a91d  .\miscellaneous.php
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
@@ -57,7 +56,6 @@ da39a3ee5e6b4b0d3255bfef95601890afd80709  .\data\usegc1
 db3394466806ed362270e1a7c5f4ae710a3a2f18  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-black.png
 e1e68b598957e4cf266c1e127cdfb12b6b53d6fd  .\wallproxy-local\python.exe
 e43cd8ab4b4b5ba08e13df2aed14ce927abc7bdd  .\cleanhash.php
-e51503f9a8664242334d2ec511f7232d470c742d  .\data\version
 e5716d7889d34f29e0acffe63af3e38eb3f3c1f8  .\utility\sha1deep64.exe
 e57b5d944c96056ef2a57cf4b27da95f946c29eb  .\wallproxy-local\src.zip\web\page401.html
 e7770d876224cf674dc943150104cd16b6572267  .\wallproxy-local\misc\pac_backup.dat

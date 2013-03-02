@@ -30,8 +30,6 @@
 4d4f95e5ecde4ac37557132dfeb048fa  .\wallproxy-local\src.zip\web\favicon.ico
 4ec5f5a1fc5672f6d70f6d81457777c0  .\wallproxy-local\pac
 502993a664681e08afd81df989d177a0  .\wallproxy-local\src.zip\web\css\jqm-docs.css
-537a1f418e38a22512cff524eeede67b  .\data\version
-5b41fdb12d7943f5a930a928143a3d4b  .\utility\php\pharcommand.phar
 5d8662088ab4c9f2ba08158f7680c6f6  .\wallproxy-local\misc\pac_backup.dat
 632ff9bef83adcf1cd745c938a4216af  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 665ccc57a84c5639c4e5151686cc0432  .\utility\sha1deep64.exe
@@ -49,13 +47,13 @@ bde0984f77af9c671e3f2453e44e9cd2  .\data\host
 c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 caa3e83b7d8de014874611b53485d3be  .\wallproxy-local\src.zip\web\page404.html
 cd4c9dd8d5f0fd632f9b9bdcb7391ec5  .\wallproxy-local\misc\proxy.pac
+d21bf4acae2069bbab5974e91c2ac00f  .\data\version
 d40647dbece40ccca68b7ae627895073  .\utility\vcredist_x86_sc.exe
 d40b365c27b4768764bc9d5877d0adf2  .\miscellaneous.php
 d41d8cd98f00b204e9800998ecf8427e  .\data\usegc1
 d60725689326e73aa630cd2b991f9f21  .\string.inc.php
 d89e6ce5107051176f015f3f16bdf37c  .\updategc.php
 daaf153941fe61214af6728d786bd53b  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
-ddf130f30f4beb519cfecde666e3843b  .\utility\php\gmodule-2.dll
 e2a43c2e4286e48c73c54d280c6e4150  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
 e7d91d008fe76423962b91c43c88e4eb  .\wallproxy-local\msvcr90.dll
 e8f7bf9718e4b532a7dfa51f2a56c3e2  .\wallproxy-local\src.zip\web\js\my.js
