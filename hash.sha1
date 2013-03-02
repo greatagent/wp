@@ -46,7 +46,6 @@ bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\them
 c219c5d497e9f9cc0afadff29783d5cd7227a91d  .\miscellaneous.php
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
 c3e8cd81ee23d5054f2a401121443d4ea61b193f  .\wallproxy-local\src.zip\web\index.html
-c57250b66cd7ac69d9de0bead701e797d9dcc22e  .\data\version
 c6f7a1b457d042976e6900483172501c53db725e  .\utility\php\php.exe
 d0ccfd210a290c3a5d735f673e32771274134e3c  .\wallproxy-local\src.zip\web\css\codemirror.css
 d305f558b83086140680be81bc49cf313adaa0b8  .\wwqgtxx-wallproxy.bat
@@ -60,5 +59,6 @@ e5716d7889d34f29e0acffe63af3e38eb3f3c1f8  .\utility\sha1deep64.exe
 e57b5d944c96056ef2a57cf4b27da95f946c29eb  .\wallproxy-local\src.zip\web\page401.html
 e7770d876224cf674dc943150104cd16b6572267  .\wallproxy-local\misc\pac_backup.dat
 ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
+f0da2b0e465c4f4be4b3ad553dc5b2099103de5e  .\data\version
 f86dea144b2044c2cc9c55d493ba0856966186ed  .\wallproxy-local\gui.ini
 f9613ab19644448568841e8a2969e265381fd96e  .\utility\php\ssleay32.dll
