@@ -7,6 +7,7 @@
 08a3028fda91d443f4d5e93307c96fcd  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.gif
 08e85fe5f06cb4120967633447468419  .\wallproxy-local\Microsoft.VC90.CRT.manifest
 108368264a102669e271abce6b4d7b45  .\utility\php\php5ts.dll
+18a4c6cace9ed78707a35b3b970b72b6  .\data\version
 19481cec01373c3a9018c7c8d7c0aa3c  .\updategc.php
 1e64d1a03377d873211aaa569fe7a428  .\wwqgtxx-wallproxy.bat
 1f05766183d16b04a89fb79c26f8d49c  .\wallproxy-local\src.zip\web\js\codemirror\python.js
@@ -38,7 +39,6 @@
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
 8a99f40fd97e852e6dff1c50021771a1  .\wallproxy-local\src.zip\web\index.html
-97ffedb0f5e878614a540753b066363a  .\data\version
 98336c4c488b3d00e14e117b66b7d41a  .\runner.bat
 9c5f8e677db489195d3c11ba4b449b15  .\utility\php\ssleay32.dll
 ac94cccfdb64bf926a16cd273aaee713  .\startfirefox.inc.php

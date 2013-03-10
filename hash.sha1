@@ -43,6 +43,7 @@ b43a51387a3788dae34568269bc5d852de7142da  .\utility\vcredist_x86_sc.exe
 b47097a699fda78f603e62ba11fdec4e6b50e6d9  .\makegservers.inc.php
 b50d34e8bdee04c842af8f3555c82a1bb4c309f5  .\wallproxy-local\src.zip\proxy.py
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
+bcfd8a4912061395dd5ec20c19551ab5752eb7b6  .\data\version
 c219c5d497e9f9cc0afadff29783d5cd7227a91d  .\miscellaneous.php
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
 c3e8cd81ee23d5054f2a401121443d4ea61b193f  .\wallproxy-local\src.zip\web\index.html
@@ -53,7 +54,6 @@ d7816c7368c3a75352e4f7501b0c7e357a3cdd2b  .\wallproxy-local\startup.py
 d79ff9cd0c966c23e09bd34c59e07dd656c61568  .\wallproxy-local\Microsoft.VC90.CRT.manifest
 da39a3ee5e6b4b0d3255bfef95601890afd80709  .\data\usegc1
 db3394466806ed362270e1a7c5f4ae710a3a2f18  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-black.png
-dc3976f6a5aaaba485af083b503f654503b22ca0  .\data\version
 e1e68b598957e4cf266c1e127cdfb12b6b53d6fd  .\wallproxy-local\python.exe
 e43cd8ab4b4b5ba08e13df2aed14ce927abc7bdd  .\cleanhash.php
 e5716d7889d34f29e0acffe63af3e38eb3f3c1f8  .\utility\sha1deep64.exe
