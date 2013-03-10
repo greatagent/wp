@@ -39,6 +39,7 @@
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
 8a99f40fd97e852e6dff1c50021771a1  .\wallproxy-local\src.zip\web\index.html
 98336c4c488b3d00e14e117b66b7d41a  .\runner.bat
+989b172483bd450bb48418cd5811f448  .\data\version
 9c5f8e677db489195d3c11ba4b449b15  .\utility\php\ssleay32.dll
 ac94cccfdb64bf926a16cd273aaee713  .\startfirefox.inc.php
 af91ca88437939139e4b2458c377946c  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
@@ -53,7 +54,6 @@ d40b365c27b4768764bc9d5877d0adf2  .\miscellaneous.php
 d41d8cd98f00b204e9800998ecf8427e  .\data\usegc1
 d60725689326e73aa630cd2b991f9f21  .\string.inc.php
 daaf153941fe61214af6728d786bd53b  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
-df03193787fe629ee3d2110dfbddf45b  .\data\version
 e2a43c2e4286e48c73c54d280c6e4150  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
 e7d91d008fe76423962b91c43c88e4eb  .\wallproxy-local\msvcr90.dll
 e8f7bf9718e4b532a7dfa51f2a56c3e2  .\wallproxy-local\src.zip\web\js\my.js
