@@ -1,4 +1,5 @@
 
+04b84c3c283eb2d785c50b35648fe465b78f7d50  .\data\version
 0b69eb72b2ec10035bfefcdcfb4c9708baf06ab0  .\wallproxy-local\src.zip\make_config.py
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 0eeee50df19ef8663c4ddaad1c29aa11ca812b91  .\wallproxy-local\src.zip\web\index.html
@@ -23,7 +24,6 @@
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
 6ca1cedc91693d63ab551768b9cec36646644895  .\wallproxy-local\certmgr.exe
-7240ef7b93f45224971069a549ef771fd02d5d34  .\data\version
 72d89dbe42f87217ddc19b2896757013ed63c2b7  .\wallproxy-local\WallProxy.exe
 78d00c903f15e2b98cab23e626f38fd04be93498  .\string.inc.php
 7d056660573d88c92234141861aa9a433422c36c  .\wallproxy-local\misc\proxy.pac

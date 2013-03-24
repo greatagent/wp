@@ -18,7 +18,6 @@
 2731ef3c6b5ac6c45050077ceb1750c3  .\utility\php\php.ini
 29b996a9aa3f4e63d9d68c53dbd02a04  .\utility\php\php5nsapi.dll
 2b0fd3e0d80ec2016f066238c6b9241c  .\wallproxy-local\WallProxy.exe
-2da2234617567e446566b90a89163586  .\data\version
 2ddc439c70abf256705e675ee86c04ed  .\wallproxy-local\src.zip\web\js\jquery.js
 3966fbba168463fd59fbebaace710b1c  .\utility\sleep.exe
 3a23458554ca77caf325fb895a896d55  .\utility\php\libeay32.dll
@@ -44,6 +43,7 @@ ac94cccfdb64bf926a16cd273aaee713  .\startfirefox.inc.php
 af91ca88437939139e4b2458c377946c  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 b1b79931ff15de0fa5afbc65eec38f7c  .\wallproxy-local\gui.ini
 b3da1f56006b8f830af6dde218d72185  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
+bb5509e1f5f8059af4fe85488252e3b9  .\data\version
 bde0984f77af9c671e3f2453e44e9cd2  .\data\host
 c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 c9fca66f8ad0d9dd4908b584cfbb903c  .\wallproxy-local\misc\SwitchyOptions.bak
