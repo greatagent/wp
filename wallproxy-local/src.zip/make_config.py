@@ -20,11 +20,13 @@ class Common(object):
     del k, v
 
     def parse_pac_config(self):
+        v = self.get('pac', 'py_default', '') or 'FORWARD'
+        self.PY_DEFAULT = (v.split('|') * 3)[:3]
         if self.PAC_FILE:
-            PAC_DEFAULT = self.get('pac', 'default', '') or self._PAC_DEFAULT
+            v = self.get('pac', 'default', '') or self._PAC_DEFAULT
+            self.PAC_DEFAULT = (v.split('|') * 3)[:3]
         else:
-            PAC_DEFAULT = self.get('pac', 'py_default', '') or 'FORWARD'
-        self.PAC_DEFAULT = (PAC_DEFAULT.split('|') * 3)[:3]
+            self.PAC_DEFAULT = self.PY_DEFAULT
         def get_rule_cfg(key, default):
             PAC_RULELIST = v = self.get('pac', key, default)
             if v.startswith('!'):
@@ -593,6 +595,7 @@ def config():
 %if TARGET_PAAS:
     FORWARD.http_failed_handler = {{TARGET_PAAS}}
 %end
+%PY_DEFAULT = (([v for v in PY_DEFAULT if v in HTTPS_TARGET] or ['FORWARD']) * 3)[:3]
 %if PAC_ENABLE:
 %if PAC_FILE:
 %PAC_ENABLE = 0
@@ -609,7 +612,7 @@ def config():
     )
     PacFile(rulelist, iplist, {{!PAC_FILE}}, {{!PAC_DEFAULT}})
 %else:
-%PAC_DEFAULT = ([v for v in PAC_DEFAULT if v in HTTPS_TARGET] * 3)[:3]
+%PAC_DEFAULT = PY_DEFAULT
 %PAC_RULELIST = [(k,v) for k,v in PAC_RULELIST if v in HTTPS_TARGET]
 %PAC_IPLIST = [(k,v) for k,v in PAC_IPLIST if v in HTTPS_TARGET]
 %PAC_ENABLE = PAC_RULELIST or PAC_IPLIST
@@ -663,6 +666,7 @@ def config():
 %end
 )
 %end #USERNAME
+%if GAE_ENABLE:
 %if GAE_HANDLER:
 %if USERNAME:
     @auth_checker
@@ -712,6 +716,7 @@ hosts_rules.match(url, host):
 %end #GAE_HANDLER
     paas.data['GAE_server'].find_handler = find_gae_handler
 
+%end #GAE_ENABLE
 %if USERNAME:
     @auth_checker
 %end
@@ -757,16 +762,13 @@ hosts_rules.match(url, host):
 %if PAC_IPLIST:
             return findHttpProxyByIpList(host)
 %else:
-            return {{PAC_DEFAULT[0]}}
+            return {{PY_DEFAULT[0]}}
 %end
 %elif TARGET_PAAS:
             return {{TARGET_PAAS}}
 %else:
             return FORWARD
 %end
-%if not TARGET_PAAS:
-        return FORWARD
-%else:
 %if TRUE_HTTPS:
 %if NOTRUE_HTTPS:
         if notruehttps_sites.match(host): return
@@ -774,23 +776,17 @@ hosts_rules.match(url, host):
         if truehttps_sites.match(host): return FORWARD
 %end
 %if PAC_ENABLE and not PAC_FILE and PAC_HTTPSMODE != 1:
-        elif proxy_type.endswith('https'):
 %if PAC_RULELIST and PAC_HTTPSMODE == 2:
-            url = 'https://%s/' % unparse_netloc((host, port), 443)
-            for rule,target in httpslist:
-                if rule.match(url, host):
-                    return target
+        url = 'https://%s/' % unparse_netloc((host, port), 443)
+        for rule,target in httpslist:
+            if rule.match(url, host):
+                return target
 %end
 %if PAC_IPLIST:
-            return findHttpsProxyByIpList(host)
-%else:
-            return {{HTTPS_TARGET[PAC_DEFAULT[0]]}}
-%end
-%elif SOCKS5_ENABLE:
-        elif proxy_type == 'socks5':
-            return SOCKS5
+        return findHttpsProxyByIpList(host)
 %end
 %end
+        return {{HTTPS_TARGET[PY_DEFAULT[0]]}}
 %else:
         return FORWARD
 %end
