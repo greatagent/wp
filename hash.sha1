@@ -3,6 +3,7 @@
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
 1b628d4c73712dca750cbce9a96afa8dab17bdfe  .\wallproxy-local\config.py
+225e621c5006f35b8a6ac9355abd6114b3d65f79  .\data\version
 2754c98a32a1e1e9452a3b13780b706c6e8dd4fc  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 29268ef0cd220ad3c5e9812befd3f5759b27a266  .\wallproxy-local\msvcr90.dll
 29acceb00958d41734b5d5aef5510b9c471cf95d  .\data\host
@@ -18,7 +19,6 @@
 52a9d49a9cce6069d39a56d1d85a75741b55b28e  .\wallproxy-local\misc\userlist.ini
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
-66135d23a8ed229f62c12c2b57da48ef7c683974  .\data\version
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
 6ca1cedc91693d63ab551768b9cec36646644895  .\wallproxy-local\certmgr.exe
 72d89dbe42f87217ddc19b2896757013ed63c2b7  .\wallproxy-local\WallProxy.exe
@@ -35,7 +35,6 @@
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 94f3b5b67437a6e4b902ce80077a699cd79c24f9  .\wallproxy-local\src.zip\web\js\jquery.js
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
-a4df48ef339dc790936cb66eeca0dcb9bc1d11a8  .\wallproxy-local\src.zip\make_config.py
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\wwqgtxx-goagent.pubkey
 aae9f48de1bc30020508ce24bb788566839c998f  .\updategc.php
@@ -45,6 +44,7 @@ b398eaf884e847b47cf74ef11aca573056c49063  .\wallproxy-local\proxy.ini
 b43a51387a3788dae34568269bc5d852de7142da  .\utility\vcredist_x86_sc.exe
 b47097a699fda78f603e62ba11fdec4e6b50e6d9  .\makegservers.inc.php
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
+c190114f432122b22304a208b3df47c6232d66fa  .\wallproxy-local\src.zip\make_config.py
 c219c5d497e9f9cc0afadff29783d5cd7227a91d  .\miscellaneous.php
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
 c6f7a1b457d042976e6900483172501c53db725e  .\utility\php\php.exe
