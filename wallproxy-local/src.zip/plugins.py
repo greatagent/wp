@@ -4,14 +4,8 @@ from __future__ import with_statement
 def paas():
     # this part is compatible with goagent 1.1.0 by phus.lu@gmail.com and others
     print 'Initializing PAAS for proxy based on cloud service.'
-    class Hack(object):
-        set_hosts, Forward = config.import_from('util')
-        (HeaderDict, Proxy, URLInfo, unparse_netloc, del_bad_hosts
-            ) = config.import_from(utils)
-        v = (set_hosts, Forward, HeaderDict, Proxy, URLInfo, unparse_netloc,
-            del_bad_hosts)
-    (set_hosts, Forward, HeaderDict, Proxy, URLInfo, unparse_netloc, del_bad_hosts
-        ) = Hack.v
+    set_hosts, Forward = config.import_from('util')
+    HeaderDict, Proxy, URLInfo, unparse_netloc, del_bad_hosts = config.import_from(utils)
     import re, zlib, socket, struct, time, random, threading
     from binascii import a2b_hex, b2a_hex
     from base64 import b64encode
@@ -155,6 +149,7 @@ def paas():
                     if isinstance(e, HTTPError):
                         errors.append(str(e))
                         if e.code == 503:
+                            errors[-1] = 'Bandwidth Over Quota, please add more APPIDs'
                             ti -= 1
                             if server:
                                 url = self.url; server.__init__(url); server = None
@@ -176,7 +171,7 @@ def paas():
                                 print 'GAE: switch scheme to https'
                     elif isinstance(e, socket.error):
                         k = e.args[0]
-                        if url.scheme != 'https' and k in (10054, 54, 20054):
+                        if url.scheme != 'https' and k in (10054, 54, 20054, 104):
                             ti -= 1
                             url.scheme = 'https'; url.port = 443; flag |= 3
                             print 'GAE: switch scheme to https'
@@ -186,7 +181,7 @@ def paas():
                             print 'GAE: switch host to %s' % self.hosts[0]
                         else:
                             errors.append('Connect fetchserver failed: %s' % e)
-                            if del_bad_hosts() and k in (10054, 54, 20054, 10047): ti -= 1
+                            if del_bad_hosts() and k in (10054, 54, 20054, 104, 10047): ti -= 1
                     else:
                         errors.append('Connect fetchserver failed: %s' % e)
                     if flag & 1:
