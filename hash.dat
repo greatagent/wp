@@ -9,7 +9,6 @@
 19481cec01373c3a9018c7c8d7c0aa3c  .\updategc.php
 1e64d1a03377d873211aaa569fe7a428  .\wwqgtxx-wallproxy.bat
 1f05766183d16b04a89fb79c26f8d49c  .\wallproxy-local\src.zip\web\js\codemirror\python.js
-20b5400e1a62a3826dcf0280254d2780  .\data\version
 229ee3f6a87b33f0c6e589c0ea3cc085  .\wallproxy-local\certmgr.exe
 22e96746125986b85455a62614fee245  .\makegservers.inc.php
 2303ea535203c79305490d6c20be8454  .\utility\sha1deep.exe
@@ -35,6 +34,7 @@
 7b9adbaba28fa5074017d10ccc31c4de  .\wallproxy-local\src.zip\make_config.py
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
+8d2a1e26ed26ed9b722a0c9881419767  .\data\version
 8dc35c37bd07504f06774f44325ffa68  .\wallproxy-local\src.zip\proxy.py
 9121d785c0e2f1d05d67057014accbec  .\wallproxy-local\misc\proxy.pac
 98336c4c488b3d00e14e117b66b7d41a  .\runner.bat
