@@ -9,6 +9,7 @@
 32cc2f56ecfe51a22f2c07b5ad9d56b89ae04b4b  .\wallproxy-local\src.zip\web\js\codemirror\python.js
 350d22f25087b1cc1fac7cd404e33be6e5435238  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
 40f662083ff47987254f312959a39e4b7dce7da1  .\wallproxy-local\misc\SwitchyOptions.bak
+4353d4178eae1694bc9317695cfe781d77075d2a  .\data\version
 482029cb5642995ab06837aa00175c78ef65c8fb  .\get-last-kown-good.inc.php
 4a0ff57b7120b68bb13a2c3b1fee37cf9bafe57a  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
 4b9c8afa0fdab6fd163ebf75d22fe63cafd700da  .\wallproxy-local\src.zip\web\favicon.ico
@@ -38,7 +39,6 @@ a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\wwqgtxx-goagent.pubkey
 aae9f48de1bc30020508ce24bb788566839c998f  .\updategc.php
 ab2d5de7109e4b0bbf2757fbda9a9f31676b1381  .\runner.bat
-ae3a356a5a395d3c14d050f9811c00c4ce3164c1  .\data\version
 afb5a8d515ec7b2c4e5d8bfccb490fb5b60311c3  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.gif
 b398eaf884e847b47cf74ef11aca573056c49063  .\wallproxy-local\proxy.ini
 b43a51387a3788dae34568269bc5d852de7142da  .\utility\vcredist_x86_sc.exe

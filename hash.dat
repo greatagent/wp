@@ -1,4 +1,5 @@
 
+006af1323442a32c980d110df6b32c15  .\data\version
 00c10273407bc8f2532704dba13e561d  .\wallproxy-local\misc\pac_backup.dat
 0268881e94e06819ca6345d088abc35f  .\wallproxy-local\src.zip\web\css\codemirror.css
 04164e02288b5c204d4508b13ac02bd7  .\wallproxy-local\Run.bat
@@ -34,7 +35,6 @@
 7b9adbaba28fa5074017d10ccc31c4de  .\wallproxy-local\src.zip\make_config.py
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
-8d2a1e26ed26ed9b722a0c9881419767  .\data\version
 8dc35c37bd07504f06774f44325ffa68  .\wallproxy-local\src.zip\proxy.py
 9121d785c0e2f1d05d67057014accbec  .\wallproxy-local\misc\proxy.pac
 98336c4c488b3d00e14e117b66b7d41a  .\runner.bat
