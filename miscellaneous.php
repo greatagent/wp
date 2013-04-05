@@ -4,6 +4,8 @@
 #  
 #  miscellaneous.php - Last cleanup
 
+@unlink("wallproxy-local/config.py");
+
 @unlink("hash.dat");
 @unlink("sign.dat");
 @unlink("utility/md5deep.exe");
