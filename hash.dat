@@ -33,6 +33,7 @@
 665ccc57a84c5639c4e5151686cc0432  .\utility\sha1deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
+7f8ce092f3d9a5e86c8f1ab9470873df  .\wallproxy-local\src.zip\make_config.py
 808f725bee1683ad743be4b2b950ca5b  .\utility\php\php.exe
 8dc35c37bd07504f06774f44325ffa68  .\wallproxy-local\src.zip\proxy.py
 9121d785c0e2f1d05d67057014accbec  .\wallproxy-local\misc\proxy.pac
@@ -45,12 +46,11 @@ af91ca88437939139e4b2458c377946c  .\wallproxy-local\src.zip\web\js\codemirror\co
 b1b79931ff15de0fa5afbc65eec38f7c  .\wallproxy-local\gui.ini
 b21d339bdcb424887d23c9133101e2f7  .\wallproxy-local\src.zip\plugins.py
 b3da1f56006b8f830af6dde218d72185  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
-b43664016497d6c4120ba331b4361cb1  .\data\version
 bde0984f77af9c671e3f2453e44e9cd2  .\data\host
 c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 c9fca66f8ad0d9dd4908b584cfbb903c  .\wallproxy-local\misc\SwitchyOptions.bak
+ca121d80735080e15d0eb700237b61be  .\data\version
 caa3e83b7d8de014874611b53485d3be  .\wallproxy-local\src.zip\web\page404.html
-cfec59e4fd3509e321781c6f500e0854  .\wallproxy-local\src.zip\make_config.py
 d40647dbece40ccca68b7ae627895073  .\utility\vcredist_x86_sc.exe
 d41d8cd98f00b204e9800998ecf8427e  .\data\usegc1
 d60725689326e73aa630cd2b991f9f21  .\string.inc.php
