@@ -2,7 +2,11 @@
 #  wwqgtxx-goagent   - Software suite for breakthrough GFW
 #  wwqgtxx-wallproxy - Software suite for breakthrough GFW
 #  
-#  miscellaneous.php - Last cleanup
+#  clean-old-file.php - Last cleanup
+
+@unlink("cleanhash.php");
+@unlink("makegservers.inc.php");
+@unlink("miscellaneous.php");
 
 @unlink("wallproxy-local/config.py");
 
