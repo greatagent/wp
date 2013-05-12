@@ -1,4 +1,5 @@
 
+01dc2ab2193e6cafb07f7ed5baaa22b8939c3abe  .\data\version
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 0db84c5b05b6e452bb23d4c05c4f69523d4a4cf5  .\wallproxy-local\src.zip\make_config.py
 0ef26ecb9728d31fb3bbd0244e4d958749055fd1  .\wallproxy-local\misc\pac_backup.dat
@@ -26,7 +27,6 @@
 72d89dbe42f87217ddc19b2896757013ed63c2b7  .\wallproxy-local\WallProxy.exe
 7477b038de3bd45df90a0b7cd6902d0c1eb9086f  .\wwqgtxx-wallproxy.bat
 768636e346e2f451ffc34d7761d3f3558ff49b44  .\get-last-kown-good.inc.php
-771d6a2792c926032c28ae4e19d0fd8332bba4bc  .\data\version
 78c09bcf6ad9e184066419cc21222d9a03451bac  .\updategc.php
 78d00c903f15e2b98cab23e626f38fd04be93498  .\string.inc.php
 7d056660573d88c92234141861aa9a433422c36c  .\wallproxy-local\misc\proxy.pac

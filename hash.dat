@@ -20,7 +20,6 @@
 3bdd7116009b8f7b091b44e5e71a967c  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
 3f12c9300def52889994ac53a8c7641f  .\utility\php\ext\php_openssl.dll
 3f2fb2b19998e24820c750bc2fa77748  .\FirefoxPortable\Data\profile\cert8.db
-3fb58b1f21e910b3874f817f6be0dc41  .\data\version
 47a2bd2fc99127f88b15da65c4c6a6bc  .\clean-old-file.php
 4a323b7ef9006018804b52ffc3e83c06  .\data\wwqgtxx-goagent.pubkey
 4d4f95e5ecde4ac37557132dfeb048fa  .\wallproxy-local\src.zip\web\favicon.ico
@@ -64,5 +63,6 @@ eb819e57d1b2b91a3465659840cc7f40  .\wallproxy-local\src.zip\web\index.html
 ed1eddca002ca47aa11f06196d49f243  .\wallproxy-local\startup.py
 ed927cc9e49c1ac457515262e4bbb6ec  .\wallproxy-local\misc\pac_backup.dat
 f1c0a979edf97b8ca07bafe12498e95f  .\wallproxy-local\src.zip\old.py
+f51c5489a743fb2a9b4d5e406269ff8e  .\data\version
 f9e3c93059ef0fc1ca1ead499f19d489  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-black.png
 fe3222fd7cac42742c035ccfa9954e88  .\wallproxy-local\src.zip\web\page401.html
