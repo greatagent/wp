@@ -1,5 +1,4 @@
 
-01dc2ab2193e6cafb07f7ed5baaa22b8939c3abe  .\data\version
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 0db84c5b05b6e452bb23d4c05c4f69523d4a4cf5  .\wallproxy-local\src.zip\make_config.py
 0ef26ecb9728d31fb3bbd0244e4d958749055fd1  .\wallproxy-local\misc\pac_backup.dat
@@ -34,6 +33,7 @@
 7e93e69e4214721164548a5587cf91823bc2dce1  .\startfirefox.inc.php
 81f2cd0b2a6f69340894e47c62545e0d43f59ec5  .\utility\php\php5nsapi.dll
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css
+89ca86bdc0bd3139a39a8ce435e49a33eb1a66bf  .\data\version
 8a325fc35324d1d4fcb8488d1033b0d9a25441a3  .\runner.bat
 8ae566230d7b5afd79fda2a0fca7cc758e7efb62  .\utility\php\php.ini
 8db509bf57ff842be61c0063b4733a3a25e2bf38  .\wallproxy-local\pac

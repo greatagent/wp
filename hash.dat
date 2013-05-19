@@ -15,6 +15,7 @@
 29b996a9aa3f4e63d9d68c53dbd02a04  .\utility\php\php5nsapi.dll
 2b0fd3e0d80ec2016f066238c6b9241c  .\wallproxy-local\WallProxy.exe
 2ddc439c70abf256705e675ee86c04ed  .\wallproxy-local\src.zip\web\js\jquery.js
+333483ceee4cfdbc4fef9848ad1df8d5  .\data\version
 3966fbba168463fd59fbebaace710b1c  .\utility\sleep.exe
 3a23458554ca77caf325fb895a896d55  .\utility\php\libeay32.dll
 3bdd7116009b8f7b091b44e5e71a967c  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
@@ -63,6 +64,5 @@ eb819e57d1b2b91a3465659840cc7f40  .\wallproxy-local\src.zip\web\index.html
 ed1eddca002ca47aa11f06196d49f243  .\wallproxy-local\startup.py
 ed927cc9e49c1ac457515262e4bbb6ec  .\wallproxy-local\misc\pac_backup.dat
 f1c0a979edf97b8ca07bafe12498e95f  .\wallproxy-local\src.zip\old.py
-f51c5489a743fb2a9b4d5e406269ff8e  .\data\version
 f9e3c93059ef0fc1ca1ead499f19d489  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-black.png
 fe3222fd7cac42742c035ccfa9954e88  .\wallproxy-local\src.zip\web\page401.html
