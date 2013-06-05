@@ -28,6 +28,7 @@
 768636e346e2f451ffc34d7761d3f3558ff49b44  .\get-last-kown-good.inc.php
 78c09bcf6ad9e184066419cc21222d9a03451bac  .\updategc.php
 78d00c903f15e2b98cab23e626f38fd04be93498  .\string.inc.php
+79b23dec9fb4745cb4c3bdc0fa7e52c438c6ba32  .\data\version
 7d056660573d88c92234141861aa9a433422c36c  .\wallproxy-local\misc\proxy.pac
 7e57de19de9ad8093c89faff7d9e859be2bfbf39  .\wallproxy-local\src.zip\web\index.html
 7e93e69e4214721164548a5587cf91823bc2dce1  .\startfirefox.inc.php
@@ -60,7 +61,6 @@ df3cab2afa99ac740297b4b63aac333f496979f9  .\wallproxy-local\src.zip\plugins.py
 e1e68b598957e4cf266c1e127cdfb12b6b53d6fd  .\wallproxy-local\python.exe
 e5716d7889d34f29e0acffe63af3e38eb3f3c1f8  .\utility\sha1deep64.exe
 e57b5d944c96056ef2a57cf4b27da95f946c29eb  .\wallproxy-local\src.zip\web\page401.html
-e8c5540e0234242150e6ebae6ad94d91a7307bea  .\data\version
 eb685c1aca1d3ffed3bf419eaaa1ee48a1fdf00c  .\wallproxy-local\proxy.ini
 ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
 f86dea144b2044c2cc9c55d493ba0856966186ed  .\wallproxy-local\gui.ini
