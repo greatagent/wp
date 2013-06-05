@@ -4,6 +4,7 @@
 123d4efc4ffa6213ae4c5a5ee8be11825f5dd873  .\clean-old-file.php
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
+19092313563c1797f35b70f8d0389ee27bdd0b9d  .\data\version
 241cb2b317b3e244168b3a9b09f4a0aa653e6ad8  .\wallproxy-local\config.py
 2754c98a32a1e1e9452a3b13780b706c6e8dd4fc  .\wallproxy-local\src.zip\web\css\themes\default\jquery.mobile-1.1.1.css
 29268ef0cd220ad3c5e9812befd3f5759b27a266  .\utility\php\msvcr90.dll
@@ -31,7 +32,6 @@
 768636e346e2f451ffc34d7761d3f3558ff49b44  .\get-last-kown-good.inc.php
 78c09bcf6ad9e184066419cc21222d9a03451bac  .\updategc.php
 78d00c903f15e2b98cab23e626f38fd04be93498  .\string.inc.php
-7b39f580885afa67a0554dc445d5e309b14ce85a  .\data\version
 7e93e69e4214721164548a5587cf91823bc2dce1  .\startfirefox.inc.php
 81f2cd0b2a6f69340894e47c62545e0d43f59ec5  .\utility\php\php5nsapi.dll
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css

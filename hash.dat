@@ -22,7 +22,6 @@
 47a2bd2fc99127f88b15da65c4c6a6bc  .\clean-old-file.php
 4a323b7ef9006018804b52ffc3e83c06  .\data\wwqgtxx-goagent.pubkey
 4d4f95e5ecde4ac37557132dfeb048fa  .\wallproxy-local\src.zip\web\favicon.ico
-4e9b0732bc66b2a893780289badc9f8a  .\data\version
 502993a664681e08afd81df989d177a0  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 52064c2cd554b4fc3dee1ba930e31978  .\updategc.php
 54cf996f00758c1bbc6557a4bc442432  .\clean-sha1.php
@@ -61,6 +60,7 @@ e7d91d008fe76423962b91c43c88e4eb  .\utility\php\msvcr90.dll
 e7d91d008fe76423962b91c43c88e4eb  .\wallproxy-local\msvcr90.dll
 e81f5774cb0b62ea5e623decdee45dfe  .\wallproxy-local\startup.py
 e8f7bf9718e4b532a7dfa51f2a56c3e2  .\wallproxy-local\src.zip\web\js\my.js
+e922084f4de911fb904d0e60f7ad88fd  .\data\version
 eaf24a8a4f74db094df75b54b81fe818  .\wallproxy-local\python.exe
 ed927cc9e49c1ac457515262e4bbb6ec  .\wallproxy-local\misc\pac_backup.dat
 f1c0a979edf97b8ca07bafe12498e95f  .\wallproxy-local\src.zip\old.py
