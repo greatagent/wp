@@ -30,6 +30,7 @@
 54cf996f00758c1bbc6557a4bc442432  .\clean-sha1.php
 632ff9bef83adcf1cd745c938a4216af  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 645e6e03535b76cad5e6233d3fd10568  .\utility\php\ext\Microsoft.VC90.CRT.manifest
+65421ef2cce92338dee773ff87bd8e67  .\data\version
 665ccc57a84c5639c4e5151686cc0432  .\utility\sha1deep64.exe
 6fa5bd12072631730819e73459e0f78c  .\utility\php\ext\php_sockets.dll
 7d7656a0805a9769105351c2f4bf54a3  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
@@ -45,7 +46,6 @@ af91ca88437939139e4b2458c377946c  .\wallproxy-local\src.zip\web\js\codemirror\co
 b1b79931ff15de0fa5afbc65eec38f7c  .\wallproxy-local\gui.ini
 b21d339bdcb424887d23c9133101e2f7  .\wallproxy-local\src.zip\plugins.py
 b3da1f56006b8f830af6dde218d72185  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
-b50999becfa15acd80a5c5da85b944ad  .\data\version
 bde0984f77af9c671e3f2453e44e9cd2  .\data\host
 c93d5f2dc652a68045ce0299893f7ae4  .\wallproxy-local\misc\userlist.ini
 c9fca66f8ad0d9dd4908b584cfbb903c  .\wallproxy-local\misc\SwitchyOptions.bak

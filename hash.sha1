@@ -18,7 +18,6 @@
 4b9c8afa0fdab6fd163ebf75d22fe63cafd700da  .\wallproxy-local\src.zip\web\favicon.ico
 51db69b0fd96c6867879cd09e3dabecb019add69  .\utility\php\libeay32.dll
 52a9d49a9cce6069d39a56d1d85a75741b55b28e  .\wallproxy-local\misc\userlist.ini
-5843493fc0899cca5f04e7b5c58c503d383c6c93  .\data\version
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
@@ -61,6 +60,7 @@ df3cab2afa99ac740297b4b63aac333f496979f9  .\wallproxy-local\src.zip\plugins.py
 e1e68b598957e4cf266c1e127cdfb12b6b53d6fd  .\wallproxy-local\python.exe
 e5716d7889d34f29e0acffe63af3e38eb3f3c1f8  .\utility\sha1deep64.exe
 e57b5d944c96056ef2a57cf4b27da95f946c29eb  .\wallproxy-local\src.zip\web\page401.html
+e8c5540e0234242150e6ebae6ad94d91a7307bea  .\data\version
 eb685c1aca1d3ffed3bf419eaaa1ee48a1fdf00c  .\wallproxy-local\proxy.ini
 ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
 f86dea144b2044c2cc9c55d493ba0856966186ed  .\wallproxy-local\gui.ini
