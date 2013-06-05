@@ -68,7 +68,7 @@ class Common(object):
                 pass
             CONFIG.readfp(StringIO(v), INPUT)
 
-        self.LISTEN_IP          = self.get('listen', 'ip', '127.0.0.1')
+        self.LISTEN_IP          = self.get('listen', 'ip', '0.0.0.0')
         self.LISTEN_PORT        = self.getint('listen', 'port', 8086)
         self.USERNAME           = self.get('listen', 'username', None)
         self.WEB_USERNAME       = self.get('listen', 'web_username', 'admin')
@@ -259,6 +259,15 @@ class Common(object):
         self.USERAGENT_RULES    = self.USERAGENT_MATCH and get_rules('useragent', 'rules')
         self.FALLBACK_RULES     = self.TARGET_PAAS and get_rules('urlfetch', 'nofallback',
             r'/^https?:\/\/(?:[\w-]+|127(?:\.\d+){3}|10(?:\.\d+){3}|192\.168(?:\.\d+){2}|172\.[1-3]\d(?:\.\d+){2}|\[.+?\])(?::\d+)?\//')
+        v = self.get('urlfetch', 'redirects', '')
+        try:
+            if v.startswith('!'):
+                with open(ospath.join(ospath.dirname(INPUT), 'misc', v.lstrip('!').strip()), 'U') as fp:
+                    v = fp.read()
+            for p,r in eval(v): ''+p+r
+            self.REDIRECT_RULES = '(%s)'%v
+        except:
+            self.REDIRECT_RULES = ''
 
         self.AUTORANGE_RULES    = (self.GAE_ENABLE or self.OLD_PLUGIN) and self.AUTORANGE_ENABLE and self.AUTORANGE_RULES
         self.PAC_ENABLE         = (self.PAC_RULELIST or self.PAC_IPLIST) and self.PAC_ENABLE and 'PAC_ENABLE'
@@ -456,6 +465,9 @@ def config():
 
     from plugins import misc; misc = install('misc', misc)
     PAGE = misc.Page('page.html')
+%if REDIRECT_RULES:
+    redirect_rules = misc.Redirects({{REDIRECT_RULES}})
+%end
 %HTTPS_TARGET.update({'FORWARD':'FORWARD', 'RAW_FORWARD':'RAW_FORWARD', 'False':'False', 'None':'None','PAGE':'None'})
 %if TARGET_PAAS:
 
@@ -562,6 +574,10 @@ def config():
 %if NEED_PAC:
 
     PacFile, RuleList, HostList = import_from('pac')
+    def apnic_parser(data):
+        from re import findall
+        return '\n'.join(findall(r'(?i)\|cn\|ipv4\|((?:\d+\.){3}\d+\|\d+)\|', data))
+%PAC_IPLIST = [('[%s]'%(', '.join(('(%r, apnic_parser)'%i) if 'delegated-apnic-latest' in i else repr(i) for i in v)),t) for v,t in PAC_IPLIST]
 %end #NEED_PAC
 %if GOOGLE_FORCEHTTPS:
     forcehttps_sites = RuleList({{!GOOGLE_FORCEHTTPS}})
@@ -596,6 +612,12 @@ def config():
 %if HOSTS_RULES:
     hosts_rules = RuleList({{!HOSTS_RULES}})
 %end #HOSTS_RULES
+    unparse_netloc = import_from('utils')
+    def build_fake_url(type, host):
+        if (type == 'https' and host[1] != 80 or
+            host[1] % 1000 == 443): type, port = 'https', 443
+        else: type, port = 'http', 80
+        return '%s://%s/' % (type, unparse_netloc(host, port))
 %if TARGET_PAAS:
     _HttpsFallback = ({{TARGET_PAAS}},)
 %if FALLBACK_RULES:
@@ -628,7 +650,7 @@ def config():
     )
     iplist = (
 %for k,v in PAC_IPLIST:
-        ({{!k}}, {{!v}}),
+        ({{k}}, {{!v}}),
 %end #PAC_IPLIST
     )
     PacFile(rulelist, iplist, {{!PAC_FILE}}, {{!PAC_DEFAULT}})
@@ -651,19 +673,13 @@ def config():
         (rulelist[{{i}}][0], {{HTTPS_TARGET[k[1]]}}),
 %end #PAC_RULELIST
     )
-    unparse_netloc = import_from('utils')
-    def build_fake_url(type, host):
-        if type == 'https': port = 443
-        elif host[1] % 1000 == 443: type, port = 'https', 443
-        else: type, port = 'http', 80
-        return '%s://%s/' % (type, unparse_netloc(host, port))
 %end #PAC_HTTPSMODE
 %end #PAC_RULELIST
 %if PAC_IPLIST:
     IpList, makeIpFinder = import_from('pac')
     iplist = (
 %for k,v in PAC_IPLIST:
-        (IpList({{!k}}), {{v}}),
+        (IpList({{k}}), {{v}}),
 %end #PAC_IPLIST
     )
     findHttpProxyByIpList = makeIpFinder(iplist, [{{', '.join(PAC_DEFAULT)}}])
@@ -716,6 +732,10 @@ def config():
                 req._r = url
                 return redirect_https
 %end
+%if REDIRECT_RULES:
+            handler = redirect_rules(req)
+            if handler: return handler
+%end
 %if CRLF_RULES:
             if crlf_rules.match(url, host):
                 req.crlf = {{HOSTS_CRLF}}
@@ -765,6 +785,10 @@ hosts_rules.match(url, host):
             if needhttps and getattr(req, '_r', '') != url:
                 req._r = url
                 return redirect_https
+%end
+%if REDIRECT_RULES:
+            handler = redirect_rules(req)
+            if handler: return handler
 %end
 %if CRLF_RULES:
             if crlf_rules.match(url, host):
@@ -829,7 +853,7 @@ def make_config(INPUT=None, OUTPUT=None):
         elif OUTPUT:
             INPUT = ospath.join(ospath.dirname(OUTPUT), 'proxy.ini')
         else:
-            if '__loader__' in globals() and __loader__:
+            if globals().get('__loader__'):
                 DIR = ospath.dirname(__loader__.archive)
             else:
                 DIR = ospath.dirname(__file__)

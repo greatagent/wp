@@ -631,4 +631,17 @@ def misc():
             req.socket.sendall(data)
         return handler
 
-    globals().update(Page=Page)
+    def Redirects(regexps):
+        import re
+        from urllib import unquote
+        rules = tuple((re.compile(pat),repl) for pat,repl in regexps)
+        def handler(req):
+            url = req.url
+            for pat,repl in rules:
+                loc = pat.sub(repl, url)
+                if loc != url:
+                    loc = 'Location: %s\r\n' % unquote(loc)
+                    return lambda req: req.send_error(301, '', loc)
+        return handler
+
+    globals().update(Page=Page, Redirects=Redirects)
