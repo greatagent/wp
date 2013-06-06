@@ -44,6 +44,7 @@ ac94cccfdb64bf926a16cd273aaee713  .\startfirefox.inc.php
 ae8a2552dfc7ae9caed84250efcb894b  .\utility\php\Microsoft.VC90.CRT.manifest
 af91ca88437939139e4b2458c377946c  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 b1b79931ff15de0fa5afbc65eec38f7c  .\wallproxy-local\gui.ini
+b3b2c2d4efac0f85266ebf61564f0452  .\data\version
 b3da1f56006b8f830af6dde218d72185  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
 bde0984f77af9c671e3f2453e44e9cd2  .\data\host
 c9fca66f8ad0d9dd4908b584cfbb903c  .\wallproxy-local\misc\SwitchyOptions.bak
@@ -60,7 +61,6 @@ e7d91d008fe76423962b91c43c88e4eb  .\utility\php\msvcr90.dll
 e7d91d008fe76423962b91c43c88e4eb  .\wallproxy-local\msvcr90.dll
 e81f5774cb0b62ea5e623decdee45dfe  .\wallproxy-local\startup.py
 e8f7bf9718e4b532a7dfa51f2a56c3e2  .\wallproxy-local\src.zip\web\js\my.js
-e922084f4de911fb904d0e60f7ad88fd  .\data\version
 eaf24a8a4f74db094df75b54b81fe818  .\wallproxy-local\python.exe
 ed927cc9e49c1ac457515262e4bbb6ec  .\wallproxy-local\misc\pac_backup.dat
 f1c0a979edf97b8ca07bafe12498e95f  .\wallproxy-local\src.zip\old.py
