@@ -1,6 +1,6 @@
 <?php
-#  wwqgtxx-goagent   - Software suite for breakthrough GFW
-#  wwqgtxx-wallproxy - Software suite for breakthrough GFW
+#  greatagent-ga   - Software suite for breakthrough GFW
+#  greatagent-wp - Software suite for breakthrough GFW
 #  
 #  clean-sha1.php - Cleanup hash table
 #  some files do not need to appear in hash table
@@ -54,19 +54,6 @@ function cleanup($line) {
   }
   
   return true;
-}
-
-
-/* Check local hash.dat exists or not*/
-if(file_exists("hash.dat")){
-	$hashtable=file_get_contents("hash.dat");
-	$hashtable=explode("\r\n",$hashtable);
-	$hashtable=array_filter($hashtable,"cleanup");
-	sort($hashtable);
-	$hashtable=implode("\r\n",$hashtable);
-
-	/* Output hash.dat */
-	if(! file_put_contents("hash.dat",$hashtable)){ echo "ERROR to wrtie hash.dat!"; }
 }
 
 
