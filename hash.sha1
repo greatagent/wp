@@ -2,6 +2,7 @@
 090d21e83d03b9c9b66d743cb3f18b2c481a29ca  .\startfirefox.inc.php
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 0ef26ecb9728d31fb3bbd0244e4d958749055fd1  .\wallproxy-local\misc\pac_backup.dat
+125373234db343b9cd4a2c54dc5bc5dc64350a35  .\data\version
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
 241cb2b317b3e244168b3a9b09f4a0aa653e6ad8  .\wallproxy-local\config.py
@@ -16,7 +17,6 @@
 32cc2f56ecfe51a22f2c07b5ad9d56b89ae04b4b  .\wallproxy-local\src.zip\web\js\codemirror\python.js
 350d22f25087b1cc1fac7cd404e33be6e5435238  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
 362d32622438c47cda6386bc145c510fe35d5b36  .\wallproxy-local\src.zip\make_config.py
-3d1b3c34f1bf648cca69d03d9ad2f6e22e478584  .\data\version
 40f662083ff47987254f312959a39e4b7dce7da1  .\wallproxy-local\misc\SwitchyOptions.bak
 437b03a20e19dd7342a5d8a2c500d17ca20fdb9f  .\greatagent.bat
 4a0ff57b7120b68bb13a2c3b1fee37cf9bafe57a  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
