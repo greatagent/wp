@@ -25,7 +25,6 @@
 51db69b0fd96c6867879cd09e3dabecb019add69  .\utility\php\libeay32.dll
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
 5ec6582647f75581a601259026cc851ce11b0868  .\wallproxy-local\gui.ini
-5f5cee38079cade5a85b6d7081054cb02813a5dc  .\data\version
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
 6c206da5f50fd301d1e66d21e61f479dfb2df265  .\utility\php\ext\Microsoft.VC90.CRT.manifest
@@ -37,6 +36,7 @@
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 8a325fc35324d1d4fcb8488d1033b0d9a25441a3  .\runner.bat
 8ae566230d7b5afd79fda2a0fca7cc758e7efb62  .\utility\php\php.ini
+90b4b5974cb92e5164c702d09be4e8e8d4639c4f  .\data\version
 9327581c48da2e1f8eed7447bc71410cb9afab61  .\utility\php\ext\php_openssl.dll
 933c86074fd1b6e2f055566b7ae8031203a878f0  .\wallproxy-local\proxy.ini
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
