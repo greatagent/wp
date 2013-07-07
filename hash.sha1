@@ -1,5 +1,4 @@
 
-063b88d450737f41224d377f7625a1dc69a8cba6  .\data\version
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
@@ -40,8 +39,8 @@
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 94f3b5b67437a6e4b902ce80077a699cd79c24f9  .\wallproxy-local\src.zip\web\js\jquery.js
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
-9c24de57254551d2f0f2008fe66eb3b43afcd6e4  .\wallproxy-local\proxy.ini
 a05f162422a602bd5b7f22f176cade5e65410a2b  .\wallproxy-local\WallProxy.exe
+a4fae5115c5201b5b018820966dfad2045a0328e  .\data\version
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\greatagent.pubkey
 ad49c7088ca7aba09c51a8254a10ceedfc6be055  .\wallproxy-local\src.zip\web\index.html
@@ -49,6 +48,7 @@ afb5a8d515ec7b2c4e5d8bfccb490fb5b60311c3  .\wallproxy-local\src.zip\web\css\them
 b3fef2e2e06ec32d6f2a6dec9c81845ba9fc09d9  .\utility\php\Microsoft.VC90.CRT.manifest
 b6d73af245478005da8f6388c31c19a6db5518f9  .\startfirefox.inc.php
 b75b940ccd7926b9cef5ad92e73f502e76319eb7  .\wallproxy-local\startup.py
+ba0355ef6d1d40651d817b34737bb6a7923cfd72  .\wallproxy-local\proxy.ini
 bacb6c7810750dcb9bcd8afaa1e509a8c1b7ca76  .\greatagent-wp.bat
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
