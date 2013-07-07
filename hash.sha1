@@ -1,7 +1,5 @@
 
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
-0e445d3480dc0fabbfb49007a89eba930c7fda84  .\data\version
-0ef26ecb9728d31fb3bbd0244e4d958749055fd1  .\wallproxy-local\misc\pac_backup.dat
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
 274791ec947d6a833d40cf0d32bfb4573c7f3b62  .\clean-old-file.php
@@ -10,11 +8,11 @@
 29268ef0cd220ad3c5e9812befd3f5759b27a266  .\wallproxy-local\msvcr90.dll
 297106b0a545e139667a9fcaef338b3d021f3dab  .\wallproxy-local\pac
 29acceb00958d41734b5d5aef5510b9c471cf95d  .\data\host
+2ab65d032e11a6f89e8f6853ecbb7ba218ba6d51  .\wallproxy-local\src.zip\make_config.py
 2b0df9fd509ae7bbb6628fb145c77c272779580e  .\wallproxy-local\src.zip\plugins.py
 2fc4176a91845e91e604ae848e98e41155bcf031  .\wallproxy-local\src.zip\web\js\codemirror\properties.js
 32cc2f56ecfe51a22f2c07b5ad9d56b89ae04b4b  .\wallproxy-local\src.zip\web\js\codemirror\python.js
 350d22f25087b1cc1fac7cd404e33be6e5435238  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.png
-362d32622438c47cda6386bc145c510fe35d5b36  .\wallproxy-local\src.zip\make_config.py
 3f11768b371f3236400a542b4ba9e4b5b0fd56ac  .\wallproxy-local\misc\proxy.pac
 40f662083ff47987254f312959a39e4b7dce7da1  .\wallproxy-local\misc\SwitchyOptions.bak
 437b03a20e19dd7342a5d8a2c500d17ca20fdb9f  .\greatagent.bat
@@ -36,12 +34,13 @@
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 8a325fc35324d1d4fcb8488d1033b0d9a25441a3  .\runner.bat
 8ae566230d7b5afd79fda2a0fca7cc758e7efb62  .\utility\php\php.ini
+91970353860d2784c3b6c3ce6668f21954ecd57d  .\wallproxy-local\misc\pac_backup.dat
 9327581c48da2e1f8eed7447bc71410cb9afab61  .\utility\php\ext\php_openssl.dll
-933c86074fd1b6e2f055566b7ae8031203a878f0  .\wallproxy-local\proxy.ini
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
 94f3b5b67437a6e4b902ce80077a699cd79c24f9  .\wallproxy-local\src.zip\web\js\jquery.js
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
 a05f162422a602bd5b7f22f176cade5e65410a2b  .\wallproxy-local\WallProxy.exe
+a864d0907cddfde940a0692939b5873a42bc6650  .\wallproxy-local\proxy.ini
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\greatagent.pubkey
 ad49c7088ca7aba09c51a8254a10ceedfc6be055  .\wallproxy-local\src.zip\web\index.html
@@ -65,5 +64,6 @@ e1e68b598957e4cf266c1e127cdfb12b6b53d6fd  .\wallproxy-local\python.exe
 e5716d7889d34f29e0acffe63af3e38eb3f3c1f8  .\utility\sha1deep64.exe
 e57b5d944c96056ef2a57cf4b27da95f946c29eb  .\wallproxy-local\src.zip\web\page401.html
 ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
+f54e9af1e491c283506c7373b44fd4d53937b836  .\data\version
 f61eb2ef4043e2c933c797f536e455e34eb67699  .\wallproxy-local\src.zip\proxy.py
 f9613ab19644448568841e8a2969e265381fd96e  .\utility\php\ssleay32.dll
