@@ -1,6 +1,5 @@
 
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
-13c47c6609a0b1d8c72365cba6f3cf171f231f5b  .\data\version
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
 274791ec947d6a833d40cf0d32bfb4573c7f3b62  .\clean-old-file.php
@@ -22,6 +21,7 @@
 5083c421d83bcf600765921e5b1e6ebe109b3ce5  .\clean-sha1.php
 51cd7d5f7c049a1c889fb11f6a083c4e953f0853  .\wallproxy-local\misc\userlist.ini
 51db69b0fd96c6867879cd09e3dabecb019add69  .\utility\php\libeay32.dll
+5a970043b07c4ae3a7adc51e1b34737fd60e43ee  .\data\version
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
 5ec6582647f75581a601259026cc851ce11b0868  .\wallproxy-local\gui.ini
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
@@ -52,7 +52,7 @@ bacb6c7810750dcb9bcd8afaa1e509a8c1b7ca76  .\greatagent-wp.bat
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
 c6f7a1b457d042976e6900483172501c53db725e  .\utility\php\php.exe
-cb4149927650d2a04d65a8063ebc6d7466490459  .\wallproxy-local\proxy.ini
+ce699c69c7f6ce6f3564886477afb773c28333b5  .\wallproxy-local\proxy.ini
 d0ccfd210a290c3a5d735f673e32771274134e3c  .\wallproxy-local\src.zip\web\css\codemirror.css
 d2b617539a8745f3458e614faf9df9e3d8a65ce0  .\gservers-common.inc.php
 d4bf95dd8368989da7cdb9678801f62856157571  .\string.inc.php
