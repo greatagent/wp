@@ -1,6 +1,6 @@
 <?php
 #  greatagent-ga   - Software suite for breakthrough GFW
-#  greatagent-wp - Software suite for breakthrough GFW
+#  greatagent-ga - Software suite for breakthrough GFW
 #  
 #  get-last-kown-good.inc.php - Grabbing last-known-good file from SmartHosts and Huhamhire-Hosts
 echo "\r\n";
@@ -20,18 +20,29 @@ foreach($host as $hostkey=>$hoststring){
 		if(filter_var($hostmatch[1],FILTER_VALIDATE_IP)){
 			$googleip1[]=$hostmatch[1];
 		}
+	}elseif(preg_match('/(.*?)\t.*?\.google\.com\.hk$/',$hoststring,$hostmatch)){
+		if(filter_var($hostmatch[1],FILTER_VALIDATE_IP)){
+			$googleip2[]=$hostmatch[1];
+		}
 	}
 }
 $googleip1=array_unique($googleip1);
 echo "SmartHosts=".implode(",",$googleip1)."\r\n";
 echo "Grabbing Huhamhire-Hosts hosts:\r\n";
 $googleip2=array();
-$host=request("GET /git/downloads/raw/ipv4_mobile_utf8/hosts HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n","huhamhire-hosts.googlecode.com");
+$host=request("GET /git-history/HostsUtl-Hostsdata/ipv4_mods/google(cn).hosts HTTP/1.1\r\nHost:{host}\r\nConnection: close\r\n\r\n","huhamhire-hosts.googlecode.com");
+$host=str_replace(" ","	",$host);
+$host=str_replace("8.8.8.8","",$host);
+$host=str_replace("8.8.4.4","",$host);
 $host=explode("\n",str_replace("\r\n","\n",$host));
 foreach($host as $hostkey=>$hoststring){
 	//talk.google.com is special case. We cannot use it as G-Server
 	if(preg_match('/(.*?)\ttalk\.google\.com$/',$hoststring,$hostmatch)){
 	}elseif(preg_match('/(.*?)\t.*?\.google\.com$/',$hoststring,$hostmatch)){
+		if(filter_var($hostmatch[1],FILTER_VALIDATE_IP)){
+			$googleip2[]=$hostmatch[1];
+		}
+	}elseif(preg_match('/(.*?)\t.*?\.google\.com\.hk$/',$hoststring,$hostmatch)){
 		if(filter_var($hostmatch[1],FILTER_VALIDATE_IP)){
 			$googleip2[]=$hostmatch[1];
 		}
