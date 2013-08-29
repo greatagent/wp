@@ -22,7 +22,6 @@
 5ec6582647f75581a601259026cc851ce11b0868  .\wallproxy-local\gui.ini
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
-68f8bff2ae1b5288187a75b5c66e4da6d601f9a0  .\data\version
 695af5c1a0fa5269ace1bbdd88218995dd3fd888  .\wallproxy-local\misc\proxy.pac
 6c206da5f50fd301d1e66d21e61f479dfb2df265  .\utility\php\ext\Microsoft.VC90.CRT.manifest
 6ca1cedc91693d63ab551768b9cec36646644895  .\wallproxy-local\certmgr.exe
@@ -34,6 +33,7 @@
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 8a325fc35324d1d4fcb8488d1033b0d9a25441a3  .\runner.bat
 8ae566230d7b5afd79fda2a0fca7cc758e7efb62  .\utility\php\php.ini
+902ff61bcede536ace559a14a44dd6089f2ec67e  .\data\version
 91970353860d2784c3b6c3ce6668f21954ecd57d  .\wallproxy-local\misc\pac_backup.dat
 9327581c48da2e1f8eed7447bc71410cb9afab61  .\utility\php\ext\php_openssl.dll
 94d87cd441b6cff694bd346722d77874547f4e63  .\wallproxy-local\src.zip\web\js\jquery.mobile-1.1.1.js
@@ -57,7 +57,6 @@ d0ccfd210a290c3a5d735f673e32771274134e3c  .\wallproxy-local\src.zip\web\css\code
 d2b617539a8745f3458e614faf9df9e3d8a65ce0  .\gservers-common.inc.php
 d4bf95dd8368989da7cdb9678801f62856157571  .\string.inc.php
 d79ff9cd0c966c23e09bd34c59e07dd656c61568  .\wallproxy-local\Microsoft.VC90.CRT.manifest
-d8f083feddb0979aa6e47d12582dd743aee83217  .\runner2.bat
 da39a3ee5e6b4b0d3255bfef95601890afd80709  .\data\usegc1
 db3394466806ed362270e1a7c5f4ae710a3a2f18  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-black.png
 e15cc499a8fd0acf0d3f67fe91ed603239f58342  .\updategc.php
