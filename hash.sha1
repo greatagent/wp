@@ -18,6 +18,7 @@
 5083c421d83bcf600765921e5b1e6ebe109b3ce5  .\clean-sha1.php
 51db69b0fd96c6867879cd09e3dabecb019add69  .\utility\php\libeay32.dll
 55d86a53cea30d00334b94edd0dec324168ad4b2  .\wallproxy-local\misc\userlist.ini
+5a7dfa25346487daf806f51b869d283dc358333d  .\data\version
 5c17cb2e6d9de7ef16514d0dd73d246c0464c13d  .\wallproxy-local\src.zip\old.py
 5ec6582647f75581a601259026cc851ce11b0868  .\wallproxy-local\gui.ini
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
@@ -40,7 +41,6 @@
 a05f162422a602bd5b7f22f176cade5e65410a2b  .\wallproxy-local\WallProxy.exe
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\greatagent.pubkey
-ac18271d70824bbe36bc7b16891429b207754495  .\data\version
 acf825fc990606dac696c5ecda13446adc9e8028  .\get-last-kown-good.inc.php
 ad49c7088ca7aba09c51a8254a10ceedfc6be055  .\wallproxy-local\src.zip\web\index.html
 afb5a8d515ec7b2c4e5d8bfccb490fb5b60311c3  .\wallproxy-local\src.zip\web\css\themes\default\images\ajax-loader.gif
