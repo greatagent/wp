@@ -475,7 +475,10 @@ def config():
 %end #TARGET_PAAS
 %if GAE_ENABLE:
 %HTTPS_TARGET['GAE'] = 'None'
-    GAE = paas.GAE(appids={{!GAE_APPIDS}}\\
+    import random
+    appids={{!GAE_APPIDS}}
+    random.shuffle(appids)
+    GAE = paas.GAE(appids=appids\\
 %if GAE_LISTEN:
 , listen={{!GAE_LISTEN}}\\
 %end
