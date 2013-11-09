@@ -72,6 +72,7 @@ b6d73af245478005da8f6388c31c19a6db5518f9  .\startfirefox.inc.php
 b75b940ccd7926b9cef5ad92e73f502e76319eb7  .\wallproxy-local\startup.py
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
+c696ec6ab0653703dc84a97796a539b97c7d3472  .\data\version
 c6f7a1b457d042976e6900483172501c53db725e  .\utility\php\php.exe
 c7d1a6c2266452eb432ab031b96c1355744d9fd8  .\sha1.ini
 ce82a06cd7e124142b7253b667b816608eac2ed5  .\autoupdate.py
@@ -95,4 +96,3 @@ ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
 ee937ad82d61081e18cd1a4b3a7a007506f7bb80  .\wallproxy-local\misc\userlist.ini
 f17a9e18e07f24250b2e277778787796706a6334  .\makehash.py
 f9613ab19644448568841e8a2969e265381fd96e  .\utility\php\ssleay32.dll
-fece270b08ddc0193bf4df677eca1261181ffdc5  .\data\version
