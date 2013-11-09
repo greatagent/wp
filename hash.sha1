@@ -22,6 +22,7 @@
 3bc1008136299a95ea02c9a84fcad1e00ea40458  .\lib\base92-1.0.3-py2.7.egg
 3f1df490b7c2249b5d5017fd92ebce90b47fdb9d  .\wallproxy-local\proxy.ini
 40f662083ff47987254f312959a39e4b7dce7da1  .\wallproxy-local\misc\SwitchyOptions.bak
+42c4fb18906bc107983c5332df55411d68a6a034  .\data\version
 466ca0f09ef8c2c94fad0370c81a3fc24f8ea7bb  .\runner.bat
 4a0ff57b7120b68bb13a2c3b1fee37cf9bafe57a  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
 4b9c8afa0fdab6fd163ebf75d22fe63cafd700da  .\wallproxy-local\src.zip\web\favicon.ico
@@ -36,7 +37,6 @@
 5cb9e9e9e2985246a2d9d7cf0228b4cb56d93635  .\certs\.greatagent2-fxga.googlecode.com.crt
 62a3729c646e96c56fe8090a43ea1fd61487287f  .\wallproxy-local\src.zip\web\js\codemirror\codemirror.js
 62d16f1f75879498bfa976cd0a15b8f3dbafe50c  .\simpleproxy.py
-637b4b3cf892f23cc833e59a0b3005304071363d  .\data\version
 673a814442244efcca3ecf8652f71c86f240afb3  .\utility\php\ext\php_sockets.dll
 6bd2b7865dc2bc7470c43730a300bb310167d92e  .\autoupdate.ini
 6c206da5f50fd301d1e66d21e61f479dfb2df265  .\utility\php\ext\Microsoft.VC90.CRT.manifest
