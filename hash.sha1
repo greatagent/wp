@@ -22,7 +22,6 @@
 3bc1008136299a95ea02c9a84fcad1e00ea40458  .\lib\base92-1.0.3-py2.7.egg
 3f1df490b7c2249b5d5017fd92ebce90b47fdb9d  .\wallproxy-local\proxy.ini
 40f662083ff47987254f312959a39e4b7dce7da1  .\wallproxy-local\misc\SwitchyOptions.bak
-42c4fb18906bc107983c5332df55411d68a6a034  .\data\version
 466ca0f09ef8c2c94fad0370c81a3fc24f8ea7bb  .\runner.bat
 4a0ff57b7120b68bb13a2c3b1fee37cf9bafe57a  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-18-white.png
 4b9c8afa0fdab6fd163ebf75d22fe63cafd700da  .\wallproxy-local\src.zip\web\favicon.ico
@@ -96,3 +95,4 @@ ed95b93cb6152b337c42947437ae64d524931218  .\utility\sha1deep.exe
 ee937ad82d61081e18cd1a4b3a7a007506f7bb80  .\wallproxy-local\misc\userlist.ini
 f17a9e18e07f24250b2e277778787796706a6334  .\makehash.py
 f9613ab19644448568841e8a2969e265381fd96e  .\utility\php\ssleay32.dll
+fece270b08ddc0193bf4df677eca1261181ffdc5  .\data\version
