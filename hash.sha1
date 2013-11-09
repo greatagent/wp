@@ -58,6 +58,7 @@
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
 a05f162422a602bd5b7f22f176cade5e65410a2b  .\wallproxy-local\WallProxy.exe
 a50de282265a517ae64c470f7b14b9bd6439f064  .\simpleproxy.ini
+a5e4bc637a305b3b18dbfa86166ac2fb0581ae24  .\data\version
 a7fdebd9de42c5beab58cad85fa02688bbe802ac  .\certs\.greatagent2-ga.googlecode.com.crt
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\greatagent.pubkey
@@ -72,7 +73,6 @@ b6d73af245478005da8f6388c31c19a6db5518f9  .\startfirefox.inc.php
 b75b940ccd7926b9cef5ad92e73f502e76319eb7  .\wallproxy-local\startup.py
 bc85952442ad8c2cd89d83f8d0aee8c297996d60  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-white.png
 c3d20987f1edc1db90a285eeafc968351a5777b2  .\wallproxy-local\src.zip\web\page404.html
-c696ec6ab0653703dc84a97796a539b97c7d3472  .\data\version
 c6f7a1b457d042976e6900483172501c53db725e  .\utility\php\php.exe
 c7d1a6c2266452eb432ab031b96c1355744d9fd8  .\sha1.ini
 ce82a06cd7e124142b7253b667b816608eac2ed5  .\autoupdate.py
