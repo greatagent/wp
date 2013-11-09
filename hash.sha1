@@ -2,6 +2,7 @@
 08dd62e7dec53e48d0251b349ecc9ff7d72acd75  .\python27.zip
 0c6a9bb70f8fe4f848b878f204c447d36f3e1309  .\wallproxy-local\src.zip\web\css\themes\default\images\icons-36-black.png
 0fb8fa9a933237ef4947377dfcf7c15dabd0a0af  .\lib\rsa-3.1.1-py2.7.egg
+124ba7b12d3e4260d16f10b97808ce3cc87a8f48  .\data\version
 14e64246a966327150abf72c68864a3f1867a3e9  .\utility\sleep.exe
 157dee2b0d2bddca2f0367050c68b4cacbe2e50f  .\FirefoxPortable\Data\profile\cert8.db
 17aecafdd888bc2d695357148fd1ea00b9fa3f49  .\wallproxy-local\src.zip\make_config.py
@@ -46,7 +47,6 @@
 71e20d22110a2203fd266af78440a7621969a4d1  .\greatagent.bat
 7793aee22c85cf00bf0f5e527d2edb8922a1315f  .\wwqgtxx-wallproxy.bat
 77d1abd5f40ca329fde8fee1540c6a05a54adf4a  .\greatagent2.pubkey
-7ab20da5c4f54fc27f56cad8782611b993c1c49d  .\data\version
 81f2cd0b2a6f69340894e47c62545e0d43f59ec5  .\utility\php\php5nsapi.dll
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 8ae566230d7b5afd79fda2a0fca7cc758e7efb62  .\utility\php\php.ini
