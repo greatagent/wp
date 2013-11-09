@@ -46,6 +46,7 @@
 71e20d22110a2203fd266af78440a7621969a4d1  .\greatagent.bat
 7793aee22c85cf00bf0f5e527d2edb8922a1315f  .\wwqgtxx-wallproxy.bat
 77d1abd5f40ca329fde8fee1540c6a05a54adf4a  .\greatagent2.pubkey
+7ab20da5c4f54fc27f56cad8782611b993c1c49d  .\data\version
 81f2cd0b2a6f69340894e47c62545e0d43f59ec5  .\utility\php\php5nsapi.dll
 83ca408da552fe7b124dc97a5721997707736748  .\wallproxy-local\src.zip\web\css\jqm-docs.css
 8ae566230d7b5afd79fda2a0fca7cc758e7efb62  .\utility\php\php.ini
@@ -58,7 +59,6 @@
 9af244567ebcb618fbfcc08aeb2f77710824f17c  .\utility\php\php5ts.dll
 a05f162422a602bd5b7f22f176cade5e65410a2b  .\wallproxy-local\WallProxy.exe
 a50de282265a517ae64c470f7b14b9bd6439f064  .\simpleproxy.ini
-a5e4bc637a305b3b18dbfa86166ac2fb0581ae24  .\data\version
 a7fdebd9de42c5beab58cad85fa02688bbe802ac  .\certs\.greatagent2-ga.googlecode.com.crt
 a958a7437bbd9a856cb40a88ea2bf48b434229c6  .\wallproxy-local\src.zip\web\js\my.js
 aa98f835169ae80f8c38ba0223f1a56f884d83bc  .\data\greatagent.pubkey
